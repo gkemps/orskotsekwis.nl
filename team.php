@@ -3,8 +3,8 @@ mb_internal_encoding("UTF-8");
 
 $servername = "localhost";
 $username = "orskotsekwis";
-$password = "otxg4DOPDtmr29gkxWIZ";
-$dbname = "orskotsekwis";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
