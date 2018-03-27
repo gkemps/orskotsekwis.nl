@@ -168,7 +168,12 @@
                       </div>
                     <?php else: ?>
                     <div class="col-md-12">
-                      <h2 class="title">De inschrijftermijn is helaas voorbij</h2>
+                      <h2>De eerste editie zit erop: Graag tot in 2019!</h2>
+                      <p>
+                        De volledige uitslag bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a> en het <a href="https://dashboard.orskotsekwis.nl" target="_blank" style="color: #22B573">dashboard</a><br />
+                        Uitwerking van het Kwisboek volgt na Pasen<br/>
+                        De foto's van de <a href="#" style="color: #22B573">Kwisavond</a> en de <a href="#" style="color: #22B573">prijsuitreiking</a> vind je op Facebook
+                      </p>
                     </div>
                     <?php endif ?>
                   </div>
