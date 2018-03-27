@@ -1,0 +1,22 @@
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version: 2.0.5
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+/* .countdown-section {
+  background-color: rgba(246, 232, 209, 0.3);
+  border: 4px solid rgba(0, 0, 0, 0.6);
+}
+
+.countdown-holding span {
+	color: #ffffff;
+} */
+
+.countdown-section {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
