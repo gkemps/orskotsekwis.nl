@@ -100,7 +100,7 @@
 
                   <!-- logo -->
                   <div id="logo" class="logo d-flex justify-content-center justify-content-md-start">
-                    <a href="index.html"><img id="logo_img" src="images/logo_kwis.png" alt="Orskotse Kwis"></a>
+                    <a href="index.php"><img id="logo_img" src="images/logo_kwis.png" alt="Orskotse Kwis"></a>
                   </div>
 
                   <!-- name-and-slogan -->
@@ -291,6 +291,72 @@
                     <?php endif ?>
                     <button type="submit" class="btn btn-default">Inschrijven</button><br/><br />
                     * Goed doel is maatschappelijk relevant voor de Oirschotse gemeenschap. Sport- en buurtverenigingen zijn niet toegestaan.
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Form Modal -->
+      <div class="modal fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Kwis 2019</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="help.php" method="post">
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 col-form-label">Naam</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Voor- en achternaam" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Emailadres" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="age" class="col-sm-2 col-form-label">Leeftijd</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="age" id="age" placeholder="Leeftijd" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="profession" class="col-sm-2 col-form-label">Beroep</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="profession" id="profession" placeholder="Beroep" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="graphic" class="col-sm-12 col-form-label">Heb je ervaring als (web)designer, DTP-er of grafisch vormgever? Zo ja, welke?</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" name="graphic" id="graphic" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="creative" class="col-sm-12 col-form-label">Heb je ervaring in muziek, dans, theater of andere creatieve podium kunsten? Zo ja, welke?</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" name="creative" id="creative" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="reason" class="col-sm-12 col-form-label">Wat denk jij toe te kunnen voegen aan Team Orskôtse Kwis?</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" name="reason" id="reason" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <button type="submit" class="btn btn-default">Inschrijven</button><br/><br />
                   </div>
                 </div>
               </form>
@@ -573,6 +639,13 @@
       <script type="text/javascript">
         $(window).on('load',function(){
           $('#myFormModal').modal('show');
+        });
+      </script>
+    <?php endif ?>
+    <?php if (isset($_SERVER['REQUEST_URI']) &&  $_SERVER['REQUEST_URI'] == "/ik-wil-graag-helpen"): ?>
+      <script type="text/javascript">
+        $(window).on('load',function(){
+          $('#myHelpModal').modal('show');
         });
       </script>
     <?php endif ?>
