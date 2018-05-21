@@ -133,7 +133,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-              <p class="text-center lead">Zaterdag 17 maart 2018</p>
+              <p class="text-center lead">Zaterdag 16 maart 2019</p>
             </div>
           </div>
           <!-- countdown start -->
@@ -168,9 +168,9 @@
                       </div>
                     <?php else: ?>
                     <div class="col-md-12">
-                      <h2>De eerste editie zit erop: Graag tot in 2019!</h2>
+                      <h2>De eerste editie zit erop. De tweede editie vind plaats op 16 maart 2019!</h2>
                       <p>
-                        De volledige uitslag bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a> en het <a href="https://dashboard.orskotsekwis.nl" target="_blank" style="color: #22B573">dashboard</a><br />
+                        De volledige uitslag 2018 bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a> en het <a href="https://dashboard.orskotsekwis.nl" target="_blank" style="color: #22B573">dashboard</a><br />
                         De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook
                       </p>
                     </div>
@@ -196,7 +196,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 17 maart vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 16 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -205,9 +205,9 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-pencil"></i>Inschrijving eindigt op 24 februari 23:59u</li>
+                <li><i class="fa fa-pencil"></i>Inschrijving eindigt op 16 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
-                <li><i class="fa fa-eur"></i>Inschrijving kost 10 euro per team</li>
+                <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
               </ul>
               <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
@@ -325,7 +325,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De Kwis: Zaterdag 17 maart 2018</h4>
+                      <h4 class="media-heading">De Kwis: Zaterdag 16 maart 2019</h4>
                       Race tegen de klok start om 19:00u.
                     </div>
                   </div>
@@ -336,7 +336,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: Zaterdag 24 maart 2018</h4>
+                      <h4 class="media-heading">Prijsuitreiking: Zaterdag 23 maart 2019</h4>
                       Wie is het slimste team van Oirschot? @ Cafe de Beurs.
                     </div>
                   </div>
@@ -347,7 +347,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Inschrijving vanaf vrijdag 5 janauri</h4>
+                      <h4 class="media-heading">Inschrijving vanaf vrijdag 4 janauri</h4>
                       Informeer je vrienden/familie en stel je team samen!
                     </div>
                   </div>
@@ -376,7 +376,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                   <h2 class="mt-4">Over de kwis</h2>
-                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 17 maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
+                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 16 maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
                   <ul class="list-icons">
 				    <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
@@ -407,23 +407,83 @@
 				<div class="separator"></div>
 			  </div>
 		  </div>
-          <div class="clients-container">
-            <div class="clients">
-              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100" style="padding-top:20px">
-                <a href="http://www.crecs.nl" target="_blank"><img src="images/crecs.png" alt=""></a>
-              </div>
-              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                <a href="http://www.quizis.nl" target="_blank"><img src="images/quizis.png" alt=""></a>
-              </div>
-              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200" style="padding-top:20px">
-                <a href="http://www.wmnotarissen.nl" target="_blank"><img src="images/marks.png" alt=""></a>
-              </div>
-              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200" style="padding-top:20px">
-                <a href="https://www.decroon.nl/" target="_blank"><img src="images/croon.png" alt=""></a>
-              </div>
-              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200" style="padding-top:20px">
-                <a href="http://www.linmanstuinen.nl/" target="_blank"><img src="images/linmans.png" alt=""></a>
-              </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="clients-container">
+          <div class="clients">
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+              <a href="http://www.crecs.nl" target="_blank"><img src="images/sponsors/crecs.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="http://www.wmnotarissen.nl" target="_blank"><img src="images/sponsors/marks.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="https://www.decroon.nl/" target="_blank"><img src="images/sponsors/croon.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="http://www.linmanstuinen.nl/" target="_blank"><img src="images/sponsors/linmans.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/studio_schoot.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/beka_garage.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/laser_oirschot.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/de_vriend.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/alument.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/rinus%20van%20beers.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/richard_vd_boomen.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/elha.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/vd_sande_caravans.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/Zuzz%20en%20Zo.png" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/sanirent.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/de_vier_mennekes_bloem_en_kado_2009_03.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/wilbert.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/moriaan.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/franken.jpg" alt=""></a>
+            </div>
+            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+              <a href="" target="_blank"><img src="images/sponsors/Logo_Joannes.jpg" alt=""></a>
             </div>
           </div>
         </div>
