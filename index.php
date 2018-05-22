@@ -648,7 +648,7 @@
         });
       </script>
     <?php endif ?>
-    <?php if (isset($_SERVER['REQUEST_URI']) &&  $_SERVER['REQUEST_URI'] == "/ik-wil-graag-helpen"): ?>
+    <?php if (isset($_REQUEST['ik-wil-graag-helpen'])): ?>
       <script type="text/javascript">
         $(window).on('load',function(){
           $('#myHelpModal').modal('show');
