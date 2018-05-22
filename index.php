@@ -362,7 +362,7 @@
                 </div>
                 <div class="form-group">
                   <div class="col-sm-12">
-                    <button type="submit" class="btn btn-default">Inschrijven</button><br/><br />
+                    <button type="submit" class="btn btn-default">Insturen</button><br/><br />
                   </div>
                 </div>
               </form>
