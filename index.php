@@ -337,13 +337,19 @@
                   </div>
                 </div>
                 <div class="form-group">
+                  <label for="hobby" class="col-sm-2 col-form-label">Hobby's</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="hobby" id="hobby" placeholder="Hobby's" required>
+                  </div>
+                </div>
+                <div class="form-group">
                   <label for="graphic" class="col-sm-12 col-form-label">Heb je ervaring als (web)designer, DTP-er of grafisch vormgever? Zo ja, welke?</label>
                   <div class="col-sm-10">
                     <textarea class="form-control" name="graphic" id="graphic" required></textarea>
                   </div>
                 </div>
                 <div class="form-group">
-                  <label for="creative" class="col-sm-12 col-form-label">Heb je ervaring in muziek, dans, theater of andere creatieve podium kunsten? Zo ja, welke?</label>
+                  <label for="creative" class="col-sm-12 col-form-label">Heb je ervaring in muziek, dans, theater of andere creatieve (podium) kunsten? Zo ja, welke?</label>
                   <div class="col-sm-10">
                     <textarea class="form-control" name="creative" id="creative" required></textarea>
                   </div>
