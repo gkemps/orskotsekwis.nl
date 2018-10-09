@@ -454,7 +454,7 @@
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
                     <li><i class="icon-check-1"></i> Teams zonder maximum aantal personen</li>
                     <li><i class="icon-check-1"></i> Teamcaptain is minimaal 18 jaar & woonachtig in Oirschot</li>
-                    <li><i class="icon-check-1"></i> Kosten bedragen €10 euro per team</li>
+                    <li><i class="icon-check-1"></i> Kosten bedragen €15 euro per team</li>
                     <li><i class="icon-check-1"></i> Winnaars steunen zelf gekozen goed doel, maatschappelijk relevant voor Oirschotse gemeenschap</li>
                     <li><i class="icon-check-1"></i> Lees de rest in ons <a href="reglement.pdf">reglement</a></li>
                   </ul>
