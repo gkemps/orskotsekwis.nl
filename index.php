@@ -1,4 +1,7 @@
-<?php /**  */ ?>
+<?php /**  */
+ const END_OF_SUBSCRIPTION = 1550962800;
+ const START_OF_SUBSCRIPTION = 1547226000;
+?>
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="zxx" class="ie9"> <![endif]-->
 <!--[if gt IE 9]> <html lang="zxx" class="ie"> <![endif]-->
@@ -149,23 +152,23 @@
               <div class="col-md-12">
                 <div class="call-to-action text-center">
                   <div class="row">
-                    <?php if (time() < 1519513199): ?>
-                      <div class="col-md-8">
-                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil((1519513199 - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
-                        <?php if (time() > 1515171600): ?>
+                    <?php if (time() < END_OF_SUBSCRIPTION): ?>
+                      <div <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>class="col-md-8"<?php else: ?>class="col-md-12"<?php endif ?>>
+                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil((START_OF_SUBSCRIPTION - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
+                        <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent vrijdag 5 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent vrijdag 11 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php endif ?>
                       </div>
-                      <div class="col-md-4">
-                        <br>
-                        <p>
-                          <?php if (time() > 1515171600 && time() < 1519513199): ?>
-                            <button data-toggle="modal" data-target="#myFormModal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
-                          <?php endif ?>
-                        </p>
-                      </div>
+                        <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
+                          <div class="col-md-4">
+                            <br>
+                            <p>
+                                <button data-toggle="modal" data-target="#myFormModal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
+                            </p>
+                          </div>
+                        <?php endif ?>
                     <?php else: ?>
                     <div class="col-md-12">
                       <h2>De eerste editie zit erop. De tweede editie vind plaats op 16 maart 2019!</h2>
@@ -205,7 +208,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-pencil"></i>Inschrijving eindigt op 16 februari 23:59u</li>
+                <li><i class="fa fa-pencil"></i>Inschrijving eindigt op 17 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -419,7 +422,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Inschrijving vanaf vrijdag 4 janauri</h4>
+                      <h4 class="media-heading">Inschrijving vanaf vrijdag 11 januari</h4>
                       Informeer je vrienden/familie en stel je team samen!
                     </div>
                   </div>
@@ -580,7 +583,7 @@
                     </ul>
                     <!-- <a href="#header" class="btn btn-default-transparent btn-lg btn-hvr hvr-sweep-to-top smooth-scroll">Schrijf nu in</a> -->
                     <div class="separator"></div>
-                    <p class="text-center margin-clear">© 2018 Orskôtse Kwis</p>
+                    <p class="text-center margin-clear">© 2019 Orskôtse Kwis</p>
                   </div>
                 </div>
               </div>
@@ -648,12 +651,12 @@
         });
       </script>
     <?php endif ?>
-    <?php if (isset($_REQUEST['ik-wil-graag-helpen'])): ?>
-      <script type="text/javascript">
-        $(window).on('load',function(){
-          $('#myHelpModal').modal('show');
-        });
-      </script>
-    <?php endif ?>
+<!--    --><?php //if (isset($_REQUEST['ik-wil-graag-helpen'])): ?>
+<!--      <script type="text/javascript">-->
+<!--        $(window).on('load',function(){-->
+<!--          $('#myHelpModal').modal('show');-->
+<!--        });-->
+<!--      </script>-->
+<!--    --><?php //endif ?>
   </body>
 </html>
