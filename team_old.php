@@ -2,7 +2,10 @@
 
 include "connect.php";
 
-$query = "SELECT id, teamcode, teamname, teamcaptain FROM orskotsekwis.orskotsekwis_history order by teamcode ASC";
+$query = "SELECT id, teamcode, teamname, teamcaptain 
+FROM orskotsekwis.orskotsekwis_history 
+where teamcode NOT IN (SELECT teamcode FROM orskotsekwis.orskotsekwis_registration WHERE teamcode <> '' AND teamcode IS NOT NULL)
+order by teamcode ASC";
 
 $result = $conn->query($query);
 
