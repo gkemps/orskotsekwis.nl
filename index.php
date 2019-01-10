@@ -1,6 +1,8 @@
 <?php /**  */
  const END_OF_SUBSCRIPTION = 1550962800;
  const START_OF_SUBSCRIPTION = 1547226000;
+
+ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
 <!DOCTYPE html>
 <!--[if IE 9]> <html lang="zxx" class="ie9"> <![endif]-->
@@ -154,7 +156,7 @@
                   <div class="row">
                     <?php if (time() < END_OF_SUBSCRIPTION): ?>
                       <div <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>class="col-md-8"<?php else: ?>class="col-md-12"<?php endif ?>>
-                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil((START_OF_SUBSCRIPTION - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
+                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil(($nextDeadline - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
@@ -165,7 +167,7 @@
                           <div class="col-md-4">
                             <br>
                             <p>
-                                <button data-toggle="modal" data-target="#myFormModal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
+                                <button data-toggle="modal" data-target="#myStep1Modal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
                             </p>
                           </div>
                         <?php endif ?>
@@ -304,6 +306,30 @@
           </div>
         </div>
       </div>
+
+        <!-- Form Modal -->
+        <div class="modal fade" id="myStep1Modal" tabindex="-1" role="dialog" aria-labelledby="myStep1ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myStep1ModalLabel">Inschrijven Orskôtse Kwis</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    </div>
+                    <div class="modal-body"id="step1_body">
+                        <p>Leuk dat jullie je willen inschrijven voor de 2e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) vorig jaar
+                            ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.</p>
+                        <p style="text-align: center">
+                            <button type="button" id="button-team-old" class="btn btn-default">Wij deden vorig jaar al mee!</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <button type="button" id="button-team-new" class="btn btn-default">Wij doen voor het eerst mee!</button>
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Afsluiten</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
       <!-- Form Modal -->
       <div class="modal fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel" aria-hidden="true">
@@ -651,6 +677,31 @@
         });
       </script>
     <?php endif ?>
+    <script type="text/javascript">
+        $('#button-team-old').click(function()
+        {
+            $.ajax
+            ({
+                url: 'team_old.php',
+                type: 'post',
+                success: function (response) {
+                    $('#step1_body').html(response);
+                }
+            });
+        });
+
+        $('#button-team-new').click(function()
+        {
+            $.ajax
+            ({
+                url: 'signup.php',
+                type: 'post',
+                success: function (response) {
+                    $('#step1_body').html(response);
+                }
+            });
+        });
+    </script>
 <!--    --><?php //if (isset($_REQUEST['ik-wil-graag-helpen'])): ?>
 <!--      <script type="text/javascript">-->
 <!--        $(window).on('load',function(){-->

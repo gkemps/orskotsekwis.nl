@@ -1,20 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "orskotsekwis";
-$password = "";
-$dbname = "";
+include "connect.php";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-if (!$conn->set_charset("utf8")) {
-    printf("Error loading character set utf8: %s\n", $conn->error);
-    exit();
-}
-
+$teamcode = $conn->real_escape_string($_POST['teamcode']);
 $teamname = $conn->real_escape_string($_POST['teamname']);
 $teamcaptain = $conn->real_escape_string($_POST['teamcaptain']);
 $teamsize = $conn->real_escape_string($_POST['teamsize']);
@@ -31,8 +18,8 @@ WHERE pincode = '{$_POST['pincode']}'";
 
     $subject = "Inschrijving update";
 } else {
-    $sql = "INSERT INTO orskotsekwis_registration (teamname, teamcaptain, teamsize, email, telephone, charity, location)
-VALUES ('{$teamname}', '{$teamcaptain}', '{$teamsize}', '{$email}', '{$telephone}', '{$charity}', '{$location}')";
+    $sql = "INSERT INTO orskotsekwis_registration (teamcode, teamname, teamcaptain, teamsize, email, telephone, charity, location)
+VALUES ('{$teamcode}', '{$teamname}', '{$teamcaptain}', '{$teamsize}', '{$email}', '{$telephone}', '{$charity}', '{$location}')";
 
     $subject = "Nieuwe inschrijving";
 }
@@ -42,8 +29,9 @@ $message = implode($_POST, ";");
 mail("info@orskotsekwis.nl", $subject, $message);
 
 if (!$conn->query($sql)) {
-    printf("Errormessage: %s\n", $conn->error);
-    die();
+    $message = sprintf("Errormessage: %s\n(%s)\n(%s)\n", $conn->error, implode(";", $_REQUEST), $sql);
+    mail('info@orskotsekwis.nl', "oeps!", $message);
+    die("Oeps, er ging iets fout. Probeer het later nog een keer.");
 }
 $conn->close();
 
