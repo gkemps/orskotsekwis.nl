@@ -12,7 +12,7 @@ $result = $conn->query($query);
 echo <<< EOT
 <p>Jullie hebben vorig jaar al meegespeeld met de Kwis. Of op zijn minst met het deel van het team. Kies hieronder in de lijst
 je team van vorig jaar. Je speelt dan ieder jaar mee onder hetzelfde teamnummer, wel zo makkelijk. Je teamnaam, 
-captain en andere gegevens kun je aanpassen in een volgend scherm. Toch liever geheel opnieuw inschrijven? Klik dan hier</p>
+captain en andere gegevens kun je aanpassen in een volgend scherm.</p>
 
 <form id="my-old-team-form" action="help.php" method="post">
     <div class="form-group">
