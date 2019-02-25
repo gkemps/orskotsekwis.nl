@@ -173,9 +173,9 @@
                         <?php endif ?>
                     <?php else: ?>
                     <div class="col-md-12">
-                      <h2>De eerste editie zit erop. De tweede editie vind plaats op 16 maart 2019!</h2>
+                      <h2>De inschrijving is gesloten. Zaterdag 16 maart 19:00 gaat het beginnen!</h2>
                       <p>
-                        De volledige uitslag 2018 bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a> en het <a href="https://dashboard.orskotsekwis.nl" target="_blank" style="color: #22B573">dashboard</a><br />
+                        De volledige uitslag van vorig jaar bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />
                         De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook
                       </p>
                     </div>
