@@ -497,98 +497,207 @@
       </section>
       <!-- main-container end -->
 
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="http://www.wmnotarissen.nl" target="_blank"><img src="images/sponsors/marks.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="https://www.decroon.nl/" target="_blank"><img src="images/sponsors/croon.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="http://www.linmanstuinen.nl/" target="_blank"><img src="images/sponsors/linmans.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/studio_schoot.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/beka_garage.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/laser_oirschot.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/de_vriend.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>-->
+        <!--            </div>-->
+
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/rinus%20van%20beers.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/richard_vd_boomen.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/elha.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/vd_sande_caravans.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/Zuzz%20en%20Zo.png" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/sanirent.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/de_vier_mennekes_bloem_en_kado_2009_03.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/wilbert.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/moriaan.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/franken.jpg" alt=""></a>-->
+        <!--            </div>-->
+        <!--            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+        <!--              <a href="" target="_blank"><img src="images/sponsors/Logo_Joannes.jpg" alt=""></a>-->
+        <!--            </div>-->
+
       <!-- section start -->
       <!-- ================ -->
-      <div class="light-gray-bg">
-	
         <div class="container">
 		  <div class="row justify-content-lg-center">
-			  <div class="col-lg-8 text-center pv-20">
-				<h2 class="text-center">Mede mogelijk gemaakt door</h2>
+			  <div class="col-lg-8 text-center pv-10">
+				<h2 class="text-center">Hoofdsponsor</h2>
 				<div class="separator"></div>
 			  </div>
 		  </div>
         </div>
-      </div>
 
       <div class="container">
         <div class="clients-container">
           <div class="clients">
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
-              <a href="http://www.crecs.nl" target="_blank"><img src="images/sponsors/crecs.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="http://www.wmnotarissen.nl" target="_blank"><img src="images/sponsors/marks.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="https://www.decroon.nl/" target="_blank"><img src="images/sponsors/croon.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="http://www.linmanstuinen.nl/" target="_blank"><img src="images/sponsors/linmans.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/studio_schoot.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/beka_garage.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/laser_oirschot.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/de_vriend.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/alument.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/rinus%20van%20beers.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/richard_vd_boomen.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/elha.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/vd_sande_caravans.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/Zuzz%20en%20Zo.png" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/sanirent.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/de_vier_mennekes_bloem_en_kado_2009_03.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/wilbert.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/moriaan.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/franken.jpg" alt=""></a>
-            </div>
-            <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-              <a href="" target="_blank"><img src="images/sponsors/Logo_Joannes.jpg" alt=""></a>
-            </div>
+              <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                <a href="" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
+              </div>
           </div>
         </div>
       </div>
+
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-8 text-center pv-10">
+                        <h2 class="text-center">Sponsoren</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="clients-container">
+                <div class="clients">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/alument.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/croon.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/groenteboer.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                        <a href="" target="_blank"><img src="images/sponsors/crecs.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                        <a href="" target="_blank"><img src="images/sponsors/corpus_novum.jpg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                        <a href="" target="_blank"><img src="images/sponsors/dvk.jpg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/mitra.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                        <a href="" target="_blank"><img src="images/sponsors/hans.jpg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/logo_dester.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/megens.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                        <a href="" target="_blank"><img src="images/sponsors/fhdp_logo.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/taiger.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/tavolino.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/verrekijker.jpg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/verwennerij.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                      <a href="" target="_blank"><img src="images/sponsors/de_vriend.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/leo_smetsers.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/msw.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/rsadvies.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/logo_roche_app_web.jpg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/richard_vd_boomen.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-8 text-center pv-10">
+                        <h2 class="text-center">Mede mogelijk gemaakt door</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="clients-container">
+                <div class="clients">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/bieb.jpeg" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/logo_tip_oirschot.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                      <a href="" target="_blank"><img src="images/sponsors/laser_oirschot.jpg" alt="" style="margin-top: 10px"></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="" target="_blank"><img src="images/sponsors/weekjournaal.png" alt="" style="margin-top: 30px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
       <!-- section end -->
 
       <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
