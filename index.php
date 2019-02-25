@@ -599,10 +599,10 @@
             <div class="clients-container">
                 <div class="clients">
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="" target="_blank"><img src="images/sponsors/alument.png" alt=""></a>
+                        <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="" target="_blank"><img src="images/sponsors/de_beurs.png" alt=""></a>
+                        <a href="" target="_blank"><img src="images/sponsors/megens.png" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                         <a href="" target="_blank"><img src="images/sponsors/croon.png" alt=""></a>
@@ -632,7 +632,7 @@
                         <a href="" target="_blank"><img src="images/sponsors/logo_dester.png" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="" target="_blank"><img src="images/sponsors/megens.png" alt=""></a>
+                        <a href="" target="_blank"><img src="images/sponsors/alument.png" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
                         <a href="" target="_blank"><img src="images/sponsors/fhdp_logo.png" alt=""></a>
