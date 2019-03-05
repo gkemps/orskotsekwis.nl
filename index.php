@@ -239,6 +239,7 @@
                             <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>
                             <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>
                             <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>
+                            <li><i class="fa fa-check"></i>Vermeld bij iedere foto je teamnaam en adres</li>
                             <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>
                         </ul>
                         <p>Bonus punten:</p>
