@@ -173,11 +173,11 @@
                         <?php endif ?>
                     <?php else: ?>
                     <div class="col-md-12">
-                      <h2>De inschrijving is gesloten. Zaterdag 16 maart 19:00 gaat het beginnen!</h2>
-                      <p>
-                        De volledige uitslag van vorig jaar bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />
-                        De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook
-                      </p>
+                        <h2>Aankondiging opwarm opdracht gezien? Klik <a href="#" data-toggle="modal" data-target="#myFirstAssigmentModal">hier</a> voor meer informatie</h2>
+<!--                      <p>-->
+<!--                        De volledige uitslag van vorig jaar bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />-->
+<!--                        De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook-->
+<!--                      </p>-->
                     </div>
                     <?php endif ?>
                   </div>
@@ -223,6 +223,38 @@
           </div>
         </div>
       </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myFirstAssigmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Opwarm opdracht 2019</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Belangrijk:</p>
+                        <ul class="list-icons">
+                            <li><i class="fa fa-check"></i>Maak een raamdecoratie (minimaal A3 formaat)</li>
+                            <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>
+                            <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>
+                            <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>
+                            <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>
+                        </ul>
+                        <p>Bonus punten:</p>
+                        <ul class="list-icons">
+                            <li><i class="fa fa-thumbs-up"></i>Hoe groter, hoe beter</li>
+                            <li><i class="fa fa-thumbs-up"></i>Meerdere ramen op verschillende locaties</li>
+                            <li><i class="fa fa-thumbs-up"></i>Creativiteit wordt altijd beloond</li>
+                        </ul>
+                        <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
       <?php
         $fields = [];
