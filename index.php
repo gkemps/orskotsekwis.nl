@@ -138,7 +138,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-              <p class="text-center lead">Zaterdag 16 maart 2019</p>
+              <p class="text-center lead">Zaterdag 21 maart 2020</p>
             </div>
           </div>
           <!-- countdown start -->
@@ -173,9 +173,9 @@
                         <?php endif ?>
                     <?php else: ?>
                     <div class="col-md-12">
-                        <h2>Aankondiging opwarm opdracht gezien? Klik <a href="#" data-toggle="modal" data-target="#myFirstAssigmentModal">hier</a> voor meer informatie</h2>
+                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>
 <!--                      <p>-->
-<!--                        De volledige uitslag van vorig jaar bekijk je <a href="download/uitslag.xls" style="color: #22B573">hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />-->
+<!--                        De volledige uitslag van vorig jaar bekijk je hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />-->
 <!--                        De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook-->
 <!--                      </p>-->
                     </div>
@@ -201,7 +201,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 16 maart vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 21 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -459,7 +459,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De Kwis: Zaterdag 16 maart 2019</h4>
+                      <h4 class="media-heading">De Kwis: Zaterdag 21 maart 2020</h4>
                       Race tegen de klok start om 19:00u.
                     </div>
                   </div>
@@ -510,7 +510,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                   <h2 class="mt-4">Over de kwis</h2>
-                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 16 maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
+                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 21 maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
                   <ul class="list-icons">
 				    <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
