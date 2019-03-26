@@ -174,10 +174,7 @@
                     <?php else: ?>
                     <div class="col-md-12">
                         <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>
-<!--                      <p>-->
-<!--                        De volledige uitslag van vorig jaar bekijk je hier</a>, net als het <a href="download/kwisboek.pdf" target="_blank" style="color: #22B573">Kwisboek 2018</a><br />-->
-<!--                        De foto's van de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389332844809296" style="color: #22B573" target="_blank">Kwisavond</a> en de <a href="https://www.facebook.com/pg/orskotse.kwis/photos/?tab=album&album_id=389336051475642" target="_blank" style="color: #22B573">prijsuitreiking</a> vind je op Facebook-->
-<!--                      </p>-->
+                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>
                     </div>
                     <?php endif ?>
                   </div>
