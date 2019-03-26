@@ -470,7 +470,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: Zaterdag 23 maart 2019</h4>
+                      <h4 class="media-heading">Prijsuitreiking: Zaterdag 28 maart 2020</h4>
                       Wie is het slimste team van Oirschot? @ Cafe de Beurs.
                     </div>
                   </div>
