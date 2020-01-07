@@ -1,6 +1,6 @@
 <?php /**  */
- const END_OF_SUBSCRIPTION = 1550962800;
- const START_OF_SUBSCRIPTION = 1547226000;
+ const END_OF_SUBSCRIPTION = 1583017199;
+ const START_OF_SUBSCRIPTION = 1578679200;
 
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
@@ -160,7 +160,7 @@
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent vrijdag 11 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent vrijdag 10 januari 19:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php endif ?>
                       </div>
                         <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
@@ -207,7 +207,8 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-pencil"></i>Inschrijving eindigt op 24 februari 23:59u</li>
+                  <li><i class="fa fa-pencil"></i>Schrijf je in voor 7 februari 19:00u en doe gegarandeerd mee aan de opwarm opdracht</li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 29 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -346,7 +347,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     </div>
                     <div class="modal-body"id="step1_body">
-                        <p>Leuk dat jullie je willen inschrijven voor de 2e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) vorig jaar
+                        <p>Leuk dat jullie je willen inschrijven voor de 3e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) vorig jaar
                             ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.</p>
                         <p style="text-align: center">
                             <button type="button" id="button-team-old" class="btn btn-default">Wij deden vorig jaar al mee!</button>
@@ -456,8 +457,8 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De Kwis: Zaterdag 21 maart 2020</h4>
-                      Race tegen de klok start om 19:00u.
+                      <h4 class="media-heading">De kwis: zaterdag 21 maart 2020</h4>
+                      Race tegen de klok start om 19:00u
                     </div>
                   </div>
                   <div class="media">
@@ -467,21 +468,54 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: Zaterdag 28 maart 2020</h4>
-                      Wie is het slimste team van Oirschot? @ Cafe de Beurs.
+                      <h4 class="media-heading">Prijsuitreiking: zaterdag 28 maart 2020</h4>
+                      Wie is het slimste team van Oirschot? @ Cafe de Beurs
                     </div>
                   </div>
-                  <div class="media">
-                    <div class="d-flex pr-4">
-                      <a href="#">
-                        <span class="icon circle small default-bg"><i class="icon-pencil"></i> </span>
-                      </a>
+                    <div class="media">
+                        <div class="d-flex pr-4">
+                            <a href="#">
+                                <span class="icon circle small default-bg"><i class="icon-pencil"></i> </span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Inschrijving open: vrijdag 10 januari 19:00u</h4>
+                            Informeer je vrienden/familie en stel alvast je team samen!
+                        </div>
                     </div>
-                    <div class="media-body">
-                      <h4 class="media-heading">Inschrijving vanaf vrijdag 11 januari</h4>
-                      Informeer je vrienden/familie en stel je team samen!
+                    <div class="media">
+                        <div class="d-flex pr-4">
+                            <a href="#">
+                                <span class="icon circle small default-bg"><i class="fa fa-clock-o"></i> </span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Early bird deadline: vrijdag 7 februari 19:00u</h4>
+                            Schrijf in voor deze datum en je doet gegarandeerd mee aan de opwarm opdracht (later meer)
+                        </div>
                     </div>
-                  </div>
+                    <div class="media">
+                        <div class="d-flex pr-4">
+                            <a href="#">
+                                <span class="icon circle small default-bg"><i class="fa fa fa-flag-checkered"></i> </span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Deadline inschrijven: zaterdag 29 februari 23:59u</h4>
+                            Inschrijving hierna niet meer mogelijk
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="d-flex pr-4">
+                            <a href="#">
+                                <span class="icon circle small default-bg"><i class="fa fa-thumbs-up"></i> </span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Dankzij jullie feedback: moeilijkheidsgraad bijgesteld</h4>
+                            Meer vragen en opdrachten die goed te doen zijn, maar zeker nog voldoende uitdaging!
+                        </div>
+                    </div>
 				  <div class="media">
                     <div class="d-flex pr-4">
                       <a href="#">
