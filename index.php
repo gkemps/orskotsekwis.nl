@@ -207,7 +207,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                  <li><i class="fa fa-pencil"></i>Schrijf je in voor 7 februari 19:00u en doe gegarandeerd mee aan de opwarm opdracht</li>
+                  <li><i class="fa fa-pencil"></i>Schrijf je in voor 7 februari 19:00u en doe gegarandeerd mee aan de opwarm opdracht = extra punten!</li>
                 <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 29 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
@@ -491,7 +491,7 @@
                         </div>
                         <div class="media-body">
                             <h4 class="media-heading">Early bird deadline: vrijdag 7 februari 19:00u</h4>
-                            Schrijf in voor deze datum en je doet gegarandeerd mee aan de opwarm opdracht (later meer)
+                            Schrijf in voor deze datum en je doet gegarandeerd mee aan de opwarm opdracht = extra punten! (later meer)
                         </div>
                     </div>
                     <div class="media">
