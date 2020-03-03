@@ -172,10 +172,10 @@
                           </div>
                         <?php endif ?>
                     <?php else: ?>
-                    <div class="col-md-12">
-                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>
-                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>
-                    </div>
+<!--                    <div class="col-md-12">-->
+<!--                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>-->
+<!--                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>-->
+<!--                    </div>-->
                     <?php endif ?>
                   </div>
                 </div>
@@ -642,6 +642,12 @@
                         </div>
                         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                             <a href="http://stoelenvlechter.nl/" target="_blank"><img src="images/sponsors/jos_smits.jpg" alt=""></a>
+                        </div>
+                        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                            <a href="http://stoelenvlechter.nl/" target="_blank"><img src="images/sponsors/taiger.png" alt=""></a>
+                        </div>
+                        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                            <a href="http://stoelenvlechter.nl/" target="_blank"><img src="images/sponsors/richard_vd_boomen.png" alt=""></a>
                         </div>
                 </div>
             </div>
