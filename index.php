@@ -138,7 +138,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-              <p class="text-center lead">Zaterdag 21 maart 2020</p>
+                <p class="text-center lead"><strike>Zaterdag 21 maart 2020</strike> Uitgesteld. Later meer!</p>
             </div>
           </div>
           <!-- countdown start -->
