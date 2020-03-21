@@ -30,11 +30,15 @@ VALUES ('{$teamcode}', '{$teamname}', '{$teamcaptain}', '{$teamsize}', '{$email}
 
 $message = implode($_POST, ";");
 
-mail("info@orskotsekwis.nl", $subject, $message);
+$headers = 'From: server@sjenkie.nl' . "\r\n" .
+    'Reply-To: server@sjenkie.nl' . "\r\n" .
+    'Return-Path: server@sjenkie.nl' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+mail("info@orskotsekwis.nl", $subject, $message, $headers, "-f server@sjenkie.nl");
 
 if (!$conn->query($sql)) {
     $message = sprintf("Errormessage: %s\n(%s)\n(%s)\n", $conn->error, implode(";", $_REQUEST), $sql);
-    mail('info@orskotsekwis.nl', "oeps!", $message);
+    mail('info@orskotsekwis.nl', "oeps!", $message, $headers, "-f server@sjenkie.nl");
     die("Oeps, er ging iets fout. Probeer het later nog een keer.");
 }
 $conn->close();
