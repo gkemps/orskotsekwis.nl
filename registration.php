@@ -1,8 +1,9 @@
 <?php
 include "connect.php";
 
-if (!isset($_POST['teamname'])) {
+if (empty($_POST['teamname'])) {
     header('Location: http://www.orskotsekwis.nl');
+    die("post error");
 }
 
 $teamcode = $conn->real_escape_string($_POST['teamcode']);
