@@ -456,7 +456,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: zaterdag 20 maart 2020</h4>
+                      <h4 class="media-heading">De kwis: zaterdag 20 maart 2021</h4>
                       Race tegen de klok start om 19:00u
                     </div>
                   </div>
