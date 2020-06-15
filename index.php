@@ -160,7 +160,7 @@
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent zaterdag 21 maart 12:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent vrijdag 8 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php endif ?>
                       </div>
                         <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
@@ -207,7 +207,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 21 juni 23:59u</li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 28 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -478,7 +478,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving heropend: zaterdag 21 maart 12:00u</h4>
+                            <h4 class="media-heading">Inschrijving heropend: vrijdag 8 januari 18:00u</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
@@ -489,7 +489,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: zondag 21 juni 23:59u</h4>
+                            <h4 class="media-heading">Deadline inschrijven: zondag 28 februari 23:59u</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
