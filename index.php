@@ -1,6 +1,6 @@
 <?php /**  */
- const END_OF_SUBSCRIPTION = 1592776799;
- const START_OF_SUBSCRIPTION = 1584788400;
+ const END_OF_SUBSCRIPTION = 1614466800;   //zondag 28 februari 00:00 CET
+ const START_OF_SUBSCRIPTION = 1610125200; //vrijdag 8 januari 18:00 CET
 
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
@@ -138,7 +138,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-                <p class="text-center lead">Zaterdag 5 september 2020</p>
+                <p class="text-center lead">Zaterdag 20 maart 2021</p>
             </div>
           </div>
           <!-- countdown start -->
@@ -198,7 +198,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 5 september vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 20 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -456,7 +456,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: zaterdag 5 september 2020</h4>
+                      <h4 class="media-heading">De kwis: zaterdag 20 maart 2020</h4>
                       Race tegen de klok start om 19:00u
                     </div>
                   </div>
@@ -467,7 +467,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: zaterdag 12 september 2020</h4>
+                      <h4 class="media-heading">Prijsuitreiking: zaterdag 27 maart 2021</h4>
                       Wie is het slimste team van Oirschot? @ Cafe de Beurs
                     </div>
                   </div>
@@ -529,7 +529,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                   <h2 class="mt-4">Over de kwis</h2>
-                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 5 september alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
+                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen op 20 maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
                   <ul class="list-icons">
 				    <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
