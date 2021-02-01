@@ -138,12 +138,12 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-                <p class="text-center lead">Zaterdag 20 maart 2021</p>
+                <p class="text-center lead">Volgende editie: voorjaar 2022</p>
             </div>
           </div>
           <!-- countdown start -->
-                     <div class="countdown clearfix"></div>
-                  <!-- countdown end -->
+<!--             <div class="countdown clearfix"></div>-->
+          <!-- countdown end -->
         </div>
         <!-- section end -->
         <!-- section start -->
@@ -154,29 +154,29 @@
               <div class="col-md-12">
                 <div class="call-to-action text-center">
                   <div class="row">
-                    <?php if (time() < END_OF_SUBSCRIPTION): ?>
-                      <div <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>class="col-md-8"<?php else: ?>class="col-md-12"<?php endif ?>>
-                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil(($nextDeadline - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
-                        <?php if (time() > START_OF_SUBSCRIPTION): ?>
-                          <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
-                        <?php else: ?>
-                          <p>Inschrijving opent vrijdag 8 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
-                        <?php endif ?>
-                      </div>
-                        <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
-                          <div class="col-md-4">
-                            <br>
-                            <p>
-                                <button data-toggle="modal" data-target="#myStep1Modal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
-                            </p>
-                          </div>
-                        <?php endif ?>
-                    <?php else: ?>
+<!--                    --><?php //if (time() < END_OF_SUBSCRIPTION): ?>
+<!--                      <div --><?php //if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?><!--class="col-md-8"--><?php //else: ?><!--class="col-md-12"--><?php //endif ?><!-->
+<!--                        <h1 class="title">Inschrijven - nog --><?php //$dagen = ceil(($nextDeadline - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?><!--</h1>-->
+<!--                        --><?php //if (time() > START_OF_SUBSCRIPTION): ?>
+<!--                          <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>-->
+<!--                        --><?php //else: ?>
+<!--                          <p>Inschrijving opent vrijdag 8 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>-->
+<!--                        --><?php //endif ?>
+<!--                      </div>-->
+<!--                        --><?php //if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
+<!--                          <div class="col-md-4">-->
+<!--                            <br>-->
+<!--                            <p>-->
+<!--                                <button data-toggle="modal" data-target="#myStep1Modal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>-->
+<!--                            </p>-->
+<!--                          </div>-->
+<!--                        --><?php //endif ?>
+<!--                    --><?php //else: ?>
 <!--                    <div class="col-md-12">-->
 <!--                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>-->
 <!--                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>-->
 <!--                    </div>-->
-                    <?php endif ?>
+<!--                    --><?php //endif ?>
                   </div>
                 </div>
               </div>
@@ -456,7 +456,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: zaterdag 20 maart 2021</h4>
+                      <h4 class="media-heading">De kwis: voorjaar 20222</h4>
                       Race tegen de klok start om 19:00u
                     </div>
                   </div>
@@ -467,7 +467,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: zaterdag 27 maart 2021</h4>
+                      <h4 class="media-heading">Prijsuitreiking: week na kwis 2022</h4>
                       Wie is het slimste team van Oirschot? @ Cafe de Beurs
                     </div>
                   </div>
@@ -478,7 +478,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving heropend: vrijdag 8 januari 18:00u</h4>
+                            <h4 class="media-heading">Inschrijving heropend: eind 2021</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
@@ -489,7 +489,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: zondag 28 februari 23:59u</h4>
+                            <h4 class="media-heading">Deadline inschrijven: voorjaar 2022</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
@@ -688,7 +688,7 @@
                     </ul>
                     <!-- <a href="#header" class="btn btn-default-transparent btn-lg btn-hvr hvr-sweep-to-top smooth-scroll">Schrijf nu in</a> -->
                     <div class="separator"></div>
-                    <p class="text-center margin-clear">© 2019 Orskôtse Kwis</p>
+                    <p class="text-center margin-clear">© <?php echo date('Y'); ?> Orskôtse Kwis</p>
                   </div>
                 </div>
               </div>
