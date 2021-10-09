@@ -138,7 +138,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-                <p class="text-center lead">Volgende editie: voorjaar 2022</p>
+                <p class="text-center lead">Volgende editie: 19 maart 2022</p>
             </div>
           </div>
           <!-- countdown start -->
@@ -198,7 +198,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 20 maart vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 19 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -207,7 +207,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 28 februari 23:59u</li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 20 februari 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -222,37 +222,37 @@
       </div>
 
         <!-- Modal -->
-        <div class="modal fade" id="myFirstAssigmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Opwarm opdracht 2019</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Belangrijk:</p>
-                        <ul class="list-icons">
-                            <li><i class="fa fa-check"></i>Maak een raamdecoratie (minimaal A3 formaat)</li>
-                            <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>
-                            <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>
-                            <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>
-                            <li><i class="fa fa-check"></i>Vermeld bij iedere foto je teamnaam en adres</li>
-                            <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>
-                        </ul>
-                        <p>Bonus punten:</p>
-                        <ul class="list-icons">
-                            <li><i class="fa fa-thumbs-up"></i>Hoe groter, hoe beter</li>
-                            <li><i class="fa fa-thumbs-up"></i>Meerdere ramen op verschillende locaties</li>
-                            <li><i class="fa fa-thumbs-up"></i>Creativiteit wordt altijd beloond</li>
-                        </ul>
-                        <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+<!--        <div class="modal fade" id="myFirstAssigmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+<!--            <div class="modal-dialog" role="document">-->
+<!--                <div class="modal-content">-->
+<!--                    <div class="modal-header">-->
+<!--                        <h4 class="modal-title" id="myModalLabel">Opwarm opdracht 2019</h4>-->
+<!--                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>-->
+<!--                    </div>-->
+<!--                    <div class="modal-body">-->
+<!--                        <p>Belangrijk:</p>-->
+<!--                        <ul class="list-icons">-->
+<!--                            <li><i class="fa fa-check"></i>Maak een raamdecoratie (minimaal A3 formaat)</li>-->
+<!--                            <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>-->
+<!--                            <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>-->
+<!--                            <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>-->
+<!--                            <li><i class="fa fa-check"></i>Vermeld bij iedere foto je teamnaam en adres</li>-->
+<!--                            <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>-->
+<!--                        </ul>-->
+<!--                        <p>Bonus punten:</p>-->
+<!--                        <ul class="list-icons">-->
+<!--                            <li><i class="fa fa-thumbs-up"></i>Hoe groter, hoe beter</li>-->
+<!--                            <li><i class="fa fa-thumbs-up"></i>Meerdere ramen op verschillende locaties</li>-->
+<!--                            <li><i class="fa fa-thumbs-up"></i>Creativiteit wordt altijd beloond</li>-->
+<!--                        </ul>-->
+<!--                        <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>-->
+<!--                    </div>-->
+<!--                    <div class="modal-footer">-->
+<!--                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
       <?php
         $fields = [];
@@ -456,7 +456,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: voorjaar 20222</h4>
+                      <h4 class="media-heading">De kwis: 19 maart 2022</h4>
                       Race tegen de klok start om 19:00u
                     </div>
                   </div>
@@ -467,7 +467,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: week na kwis 2022</h4>
+                      <h4 class="media-heading">Prijsuitreiking: 26 maart 2022</h4>
                       Wie is het slimste team van Oirschot? @ Cafe de Beurs
                     </div>
                   </div>
@@ -478,7 +478,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving heropend: eind 2021</h4>
+                            <h4 class="media-heading">Inschrijving geopend: vrijdag 7 januari 2022</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
@@ -489,7 +489,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: voorjaar 2022</h4>
+                            <h4 class="media-heading">Deadline inschrijven: 20 februari 2022</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
