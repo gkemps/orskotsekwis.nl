@@ -458,22 +458,22 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: september 2022</h4>
+                      <h4 class="media-heading">De kwis: 17 september 2022</h4>
 <!--                      Race tegen de klok start om 19:00u-->
                         Houd onze socials in de gaten voor meer nieuws
                     </div>
                   </div>
-<!--                  <div class="media">-->
-<!--                    <div class="d-flex pr-4">-->
-<!--                      <a href="#">-->
-<!--                        <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span>-->
-<!--                      </a>-->
-<!--                    </div>-->
-<!--                    <div class="media-body">-->
-<!--                      <h4 class="media-heading">Prijsuitreiking: 26 maart 2022</h4>-->
-<!--                      Wie is het slimste team van Oirschot? @ Cafe de Beurs-->
-<!--                    </div>-->
-<!--                  </div>-->
+                  <div class="media">
+                    <div class="d-flex pr-4">
+                      <a href="#">
+                        <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span>
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <h4 class="media-heading">Prijsuitreiking: 1 oktober 2022</h4>
+                      Wie is het slimste team van Oirschot? @ Cafe de Beurs
+                    </div>
+                  </div>
                     <div class="media">
                         <div class="d-flex pr-4">
                             <a href="#">
@@ -481,21 +481,21 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving geopend: juni 2022</h4>
+                            <h4 class="media-heading">Inschrijving geopend: 17 juni 2022</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
-<!--                    <div class="media">-->
-<!--                        <div class="d-flex pr-4">-->
-<!--                            <a href="#">-->
-<!--                                <span class="icon circle small default-bg"><i class="fa fa fa-flag-checkered"></i> </span>-->
-<!--                            </a>-->
-<!--                        </div>-->
-<!--                        <div class="media-body">-->
-<!--                            <h4 class="media-heading">Deadline inschrijven: juni 2022</h4>-->
-<!--                            Inschrijving hierna niet meer mogelijk-->
-<!--                        </div>-->
-<!--                    </div>-->
+                    <div class="media">
+                        <div class="d-flex pr-4">
+                            <a href="#">
+                                <span class="icon circle small default-bg"><i class="fa fa fa-flag-checkered"></i> </span>
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Deadline inschrijven: 1 september 2022</h4>
+                            Inschrijving hierna niet meer mogelijk
+                        </div>
+                    </div>
                     <div class="media">
                         <div class="d-flex pr-4">
                             <a href="#">
