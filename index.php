@@ -1,6 +1,6 @@
 <?php /**  */
- const END_OF_SUBSCRIPTION = 1614466800;   //zondag 28 februari 00:00 CET
- const START_OF_SUBSCRIPTION = 1610125200; //vrijdag 8 januari 18:00 CET
+ const END_OF_SUBSCRIPTION = 1662069600;   //vrijdag 2 september 18:00 CET
+ const START_OF_SUBSCRIPTION = 1651356000; //zondag 1 mei 00:00 CET
 
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
@@ -59,13 +59,9 @@
     <link href="css/typography-default.css" rel="stylesheet" >
     <!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
     <link href="css/skins/green.css" rel="stylesheet">
-    
 
     <!-- Custom css --> 
     <link href="css/custom.css" rel="stylesheet">
-	
-
-    
     
   </head>
 
@@ -142,7 +138,7 @@
             </div>
           </div>
           <!-- countdown start -->
-<!--             <div class="countdown clearfix"></div>-->
+            <div class="countdown clearfix"></div>
           <!-- countdown end -->
         </div>
         <!-- section end -->
@@ -154,29 +150,30 @@
               <div class="col-md-12">
                 <div class="call-to-action text-center">
                   <div class="row">
-<!--                    --><?php //if (time() < END_OF_SUBSCRIPTION): ?>
-<!--                      <div --><?php //if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?><!--class="col-md-8"--><?php //else: ?><!--class="col-md-12"--><?php //endif ?><!-->
-<!--                        <h1 class="title">Inschrijven - nog --><?php //$dagen = ceil(($nextDeadline - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?><!--</h1>-->
-<!--                        --><?php //if (time() > START_OF_SUBSCRIPTION): ?>
-<!--                          <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>-->
-<!--                        --><?php //else: ?>
-<!--                          <p>Inschrijving opent vrijdag 8 januari 18:00u. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>-->
-<!--                        --><?php //endif ?>
-<!--                      </div>-->
-<!--                        --><?php //if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
-<!--                          <div class="col-md-4">-->
-<!--                            <br>-->
-<!--                            <p>-->
-<!--                                <button data-toggle="modal" data-target="#myStep1Modal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>-->
-<!--                            </p>-->
-<!--                          </div>-->
-<!--                        --><?php //endif ?>
-<!--                    --><?php //else: ?>
-<!--                    <div class="col-md-12">-->
+                    <?php if (time() < END_OF_SUBSCRIPTION): ?>
+                      <div <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>class="col-md-8"<?php else: ?>class="col-md-12"<?php endif ?><!
+                        <h1 class="title">Inschrijven - nog <?php $dagen = ceil(($nextDeadline - time()) / (60 * 60 * 24)); echo ($dagen > 1) ? "{$dagen} dagen" : "{$dagen} dag" ?></h1>
+                        <?php if (time() > START_OF_SUBSCRIPTION): ?>
+                          <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                        <?php else: ?>
+                          <p>Inschrijving opent zondag 1 mei. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                        <?php endif ?>
+                      </div>
+                        <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
+                          <div class="col-md-4">
+                            <br>
+                            <p>
+                                <button data-toggle="modal" data-target="#myStep1Modal" class="btn btn-lg btn-default btn-animated">Inschrijven<i class="fa fa-pencil pl-20"></i></button>
+                            </p>
+                          </div>
+                        <?php endif ?>
+                    <?php else: ?>
+                    <div class="col-md-12">
+                        De inschrijving is gesloten
 <!--                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>-->
 <!--                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>-->
-<!--                    </div>-->
-<!--                    --><?php //endif ?>
+                    </div>
+                    <?php endif ?>
                   </div>
                 </div>
               </div>
@@ -198,8 +195,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-<!--                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 19 maart vanaf 19:00uur</li>-->
-                  <li><i class="fa fa-clock-o"></i>Kwis is september 2022</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 17 september vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -208,8 +204,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-<!--                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 20 februari 23:59u</li>-->
-                  <li><i class="fa fa-flag-checkered"></i>In schrijven vanaf juni 2022</li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 september 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -348,10 +343,10 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     </div>
                     <div class="modal-body"id="step1_body">
-                        <p>Leuk dat jullie je willen inschrijven voor de 3e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) vorig jaar
+                        <p>Leuk dat jullie je willen inschrijven voor de 3e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) in een van de voorgaande edities
                             ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.</p>
                         <p style="text-align: center">
-                            <button type="button" id="button-team-old" class="btn btn-default">Wij deden vorig jaar al mee!</button>
+                            <button type="button" id="button-team-old" class="btn btn-default">Wij deden al eerder mee!</button>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             <button type="button" id="button-team-new" class="btn btn-default">Wij doen voor het eerst mee!</button>
                         </p>
@@ -481,7 +476,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving geopend: 17 juni 2022</h4>
+                            <h4 class="media-heading">Inschrijving geopend: 1 mei 2022</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
