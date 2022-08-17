@@ -9,7 +9,7 @@ if (empty($_POST['teamname'])) {
 $teamcode = $conn->real_escape_string($_POST['teamcode']);
 $teamname = $conn->real_escape_string($_POST['teamname']);
 $teamcaptain = $conn->real_escape_string($_POST['teamcaptain']);
-$teamsize = $conn->real_escape_string($_POST['teamsize']);
+$teamsize = $conn->real_escape_string(intval($_POST['teamsize']));
 $email = $conn->real_escape_string($_POST['email']);
 $telephone = $conn->real_escape_string($_POST['telephone']);
 $charity = $conn->real_escape_string($_POST['charity']);
