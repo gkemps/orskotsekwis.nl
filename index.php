@@ -487,7 +487,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: 5 maart 2022</h4>
+                            <h4 class="media-heading">Deadline inschrijven: 5 maart 2023</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
