@@ -1,6 +1,6 @@
 <?php /**  */
- const START_OF_SUBSCRIPTION = 1671231601; //zaterd ag 17 december 00:00:01 CET
- const END_OF_SUBSCRIPTION = 1678057201;   //maandag 6 maart 00:00:01 CET
+  const END_OF_SUBSCRIPTION = 1678057201;   //maandag 6 maart 00:00:01 CET
+ const START_OF_SUBSCRIPTION = 1671231601; //zaterdag 17 december 00:00:01 CET
  
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
