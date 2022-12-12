@@ -1,7 +1,7 @@
 <?php /**  */
- const END_OF_SUBSCRIPTION = 1662069600;   //vrijdag 2 september 18:00 CET
- const START_OF_SUBSCRIPTION = 1651356000; //zondag 1 mei 00:00 CET
-
+ const START_OF_SUBSCRIPTION = 1671231601; //zaterdag 17 december 00:00:01 CET
+ const END_OF_SUBSCRIPTION = 1678057201;   //maandag 6 maart 00:00:01 CET
+ 
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
 <!DOCTYPE html>
@@ -156,7 +156,7 @@
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent zondag 1 mei. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent zaterdag 17 december. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php endif ?>
                       </div>
                         <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
@@ -195,7 +195,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 17 september vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 18 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -204,7 +204,7 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 september 23:59u</li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 5 maart 23:59u</li>
                 <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
@@ -343,7 +343,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     </div>
                     <div class="modal-body"id="step1_body">
-                        <p>Leuk dat jullie je willen inschrijven voor de 3e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) in een van de voorgaande edities
+                        <p>Leuk dat jullie je willen inschrijven voor de 4e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) in een van de voorgaande edities
                             ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.</p>
                         <p style="text-align: center">
                             <button type="button" id="button-team-old" class="btn btn-default">Wij deden al eerder mee!</button>
@@ -453,7 +453,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: 17 september 2022</h4>
+                      <h4 class="media-heading">De kwis: 18 maart 2023</h4>
 <!--                      Race tegen de klok start om 19:00u-->
                         Houd onze socials in de gaten voor meer nieuws
                     </div>
@@ -465,8 +465,8 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: 1 oktober 2022</h4>
-                      Wie is het slimste team van Oirschot? @ Cafe de Beurs
+                      <h4 class="media-heading">Prijsuitreiking: 25 maart 2023</h4>
+                      Wie is het slimste team van Oirschot?
                     </div>
                   </div>
                     <div class="media">
@@ -476,7 +476,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving geopend: 1 mei 2022</h4>
+                            <h4 class="media-heading">Inschrijving geopend: 17 december 2022</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
@@ -487,7 +487,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: 1 september 2022</h4>
+                            <h4 class="media-heading">Deadline inschrijven: 5 maart 2022</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
@@ -527,7 +527,7 @@
                 </div>
                 <div class="col-lg-6 order-lg-1">
                   <h2 class="mt-4">Over de kwis</h2>
-                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen in september alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
+                  <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen in maart alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie wordt het slimste team van Oirschot?</p>
                   <ul class="list-icons">
 				    <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
