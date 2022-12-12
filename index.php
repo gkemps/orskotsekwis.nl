@@ -134,7 +134,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-                <p class="text-center lead">Volgende editie: 17 september 2022</p>
+                <p class="text-center lead">Volgende editie: 18 maart 2023</p>
             </div>
           </div>
           <!-- countdown start -->
