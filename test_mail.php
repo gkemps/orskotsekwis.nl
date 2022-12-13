@@ -37,9 +37,11 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Test mail vanaf orskotsekwis.nl';
-    $mail->Body = 'This is the HTML message body <b>in bold!</b>';
+    $mail->Subject = 'Test mail vanaf orskôtsekwis.nl '.date("H").":".date("i");
+    $mail->Body = 'HTML body van de test mail <b>in bold!</b> vanuit orskôtsekwis.nl';
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->CharSet = 'UTF-8';
+    $mail->Encoding = 'base64';
 
     $mail->send();
     echo 'Message has been sent';
