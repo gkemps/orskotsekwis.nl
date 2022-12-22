@@ -574,6 +574,8 @@
         </div>
       </div>
 
+      <!-- sponsoren 
+      
             <div class="container">
                 <div class="row justify-content-lg-center">
                     <div class="col-lg-8 text-center pv-10">
@@ -638,6 +640,9 @@
                 </div>
             </div>
         </div>
+-->      
+
+
 
 <!--            <div class="container">-->
 <!--                <div class="row justify-content-lg-center">-->
