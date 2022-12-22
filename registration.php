@@ -1,5 +1,10 @@
 <?php
-include "connect.php";
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+require 'secrets.php';
+require "connect.php";
 
 if (empty($_POST['teamname'])) {
     header('Location: http://www.orskotsekwis.nl');
@@ -29,19 +34,56 @@ VALUES ('{$teamcode}', '{$teamname}', '{$teamcaptain}', '{$teamsize}', '{$email}
     $subject = "Nieuwe inschrijving";
 }
 
-$message = implode($_POST, ";");
+$message = file_get_contents("email_templates/email_mailchimp_bedankt.html");
+$message = str_replace("*|TEAMNAME|*", $teamname, $message);
+$message = str_replace("*|TEAMCAPTAIN|*", $teamcaptain, $message);
+$message = str_replace("*|CHARITY|*", $charity, $message);
+$message = str_replace("*|LOCATION|*", $location, $message);
 
-$headers = 'From: server@sjenkie.nl' . "\r\n" .
-    'Reply-To: server@sjenkie.nl' . "\r\n" .
-    'Return-Path: server@sjenkie.nl' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
-mail("oirschot9@gmail.com", $subject, $message, $headers, "-f server@sjenkie.nl");
+$mail = new PHPMailer(true);
+$mail->isSMTP();
+$mail->Host = 'pixel.mxrouting.net';
+$mail->SMTPAuth = true;
+$mail->Username = 'no-reply@orskotsekwis.nl';
+$mail->Password = SMTP_PASSWORD;
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
+$mail->Port = 465;
+$mail->CharSet = 'UTF-8';
+$mail->Encoding = 'base64';
 
 if (!$conn->query($sql)) {
     $message = sprintf("Errormessage: %s\n(%s)\n(%s)\n", $conn->error, implode(";", $_REQUEST), $sql);
-    mail('oirschot9@gmail.com', "oeps!", $message, $headers, "-f server@sjenkie.nl");
+
+    try {
+        $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
+        $mail->addAddress('inschrijven@orskotsekwis.nl');
+        $mail->Subject = "Er ging iets mis met verwerken inschrijving";
+        $mail->Body = $message;
+
+        $mail->send();
+    } catch(Exception $e) {
+        die("Oeps, er ging iets fout. Probeer het later nog een keer.");
+    }
+
     die("Oeps, er ging iets fout. Probeer het later nog een keer.");
 }
+
+
+try {
+    $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
+    $mail->addReplyTo('info@orskotsekwis.nl', 'Team Orskôtse Kwis');
+    $mail->addAddress($email, $teamcaptain);
+    $mail->addBCC('inschrijven@orskotsekwis.nl');
+    $mail->isHTML(true);                                  //Set email format to HTML
+    $mail->Subject = 'Bedankt voor je inschrijving';
+    $mail->Body = $message;
+    $mail->AltBody = 'Bedankt voor je inschrijving, kijk op https://www.orskotsekwis.nl/bedankt.html voor verdere instructies';
+
+    $mail->send();
+} catch (Exception $e) {
+    die("Oeps, je inschrijving is goed verwerkt, maar we konden je geen bevestiging sturen. Neem contact op met info@orskotsekwis.nl om te kijken of je inschrijving goed is binnengekomen");
+}
+
 $conn->close();
 
 header('Location: http://www.orskotsekwis.nl/bedankt.html');

@@ -1,2 +1,4 @@
 .idea
 connect.php
+secrets.php
+vendor
