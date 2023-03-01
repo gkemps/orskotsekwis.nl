@@ -363,7 +363,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Kwis 2019</h4>
+              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Kwis 2024</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
@@ -563,10 +563,10 @@
   <div class="clients-container">
     <div class="clients">
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
+            <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" height="500" alt=""></a>
         </div>
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-            <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
+            <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" height="500" alt=""></a>
         </div>
     </div>
   </div>
@@ -606,7 +606,6 @@
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-STomerij.png" alt=""></a>
                   </div>
-              
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Vrijthof.jpg" alt=""></a>
                   </div>
