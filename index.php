@@ -611,9 +611,6 @@
                       <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Vrijthof.jpg" alt=""></a>
                   </div>
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                      <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-STomerij.pdf" alt=""></a>
-                  </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-BRASSERIE-TOF.png" alt=""></a>
                   </div>
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
