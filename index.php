@@ -562,8 +562,8 @@
 <div class="container">
   <div class="clients-container">
     <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-            <a href="https://www.japak.nl/" target="_blank"><img height="2000" src="images/sponsors/japak.jpg" alt=""></a>
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="2000" data-effect-delay="200">
+            <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
         </div>
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
             <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
