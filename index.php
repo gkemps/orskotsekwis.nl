@@ -562,8 +562,8 @@
 <div class="container">
   <div class="clients-container">
     <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="2000" data-effect-delay="200">
-            <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg"  alt=""></a>
         </div>
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
             <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
@@ -645,6 +645,9 @@
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://primera-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-primera.jpg" alt=""></a>
                   </div>
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                      <a href="" target="_blank"><img src="images/sponsors/Logo-CafetariaKorenaar.png" alt=""></a>
+                  </div>
           </div>
       </div>
   </div>     
@@ -667,13 +670,22 @@
                             <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
                         </div>-->
 <!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="" target="_blank"><img src="images/sponsors/logo_tip_oirschot.png" alt=""></a>-->
+<!--                        <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>-->
+<!--                    </div>-->
+<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                             <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
+                        </div>
+<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+<!--                        <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra vierkant.eps" alt="" style="margin-top: 30px"></a>-->
 <!--                    </div>-->
 <!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                      <a href="" target="_blank"><img src="images/sponsors/laser_oirschot.jpg" alt="" style="margin-top: 10px"></a>-->
+<!--                        <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt="" style="margin-top: 30px"></a>-->
 <!--                    </div>-->
 <!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="" target="_blank"><img src="images/sponsors/weekjournaal.png" alt="" style="margin-top: 30px"></a>-->
+<!--                        <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo_RemkoKuhne.png" alt="" style="margin-top: 30px"></a>-->
+<!--                    </div>-->
+<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
+<!--                        <a href="https://sabiencanton.nl/" target="_blank"><img src="images/sponsors/Logo_SabienCanton.png" alt="" style="margin-top: 30px"></a>-->
 <!--                    </div>-->
 <!--                </div>-->
 <!--            </div>-->
