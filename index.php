@@ -676,13 +676,13 @@
                              <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                         </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra vierkant.eps" alt="" style="margin-top: 30px"></a>
+                        <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra vierkant.eps" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt="" style="margin-top: 30px"></a>
+                        <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-                        <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo_RemkoKuhne.png" alt="" style="margin-top: 30px"></a>
+                        <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo_RemkoKuhne.png" alt=""></a>
                     </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                         <a href="https://sabiencanton.nl/" target="_blank"><img src="images/sponsors/Logo_SabienCanton.png" alt="" style="margin-top: 30px"></a>
