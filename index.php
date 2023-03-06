@@ -664,7 +664,7 @@
             </div>
 
         <div class="container">
-            <div class="clients-container">
+            <div class="clients-container"> 
                 <div class="clients">
                      <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                             <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
