@@ -654,42 +654,45 @@
 
 
 
-<!--            <div class="container">-->
-<!--                <div class="row justify-content-lg-center">-->
-<!--                    <div class="col-lg-8 text-center pv-10">-->
-<!--                        <h2 class="text-center">Mede mogelijk gemaakt door</h2>-->
-<!--                        <div class="separator"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!---->
-<!--        <div class="container">-->
-<!--            <div class="clients-container">-->
-<!--                <div class="clients">-->
-<!--                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <div class="container">
+                <div class="row justify-content-lg-center">
+                    <div class="col-lg-8 text-center pv-10">
+                        <h2 class="text-center">Mede mogelijk gemaakt door</h2>
+                        <div class="separator"></div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="container">
+            <div class="clients-container">
+                <div class="clients">
+                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                             <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
-                        </div>-->
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>-->
-<!--                    </div>-->
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                              <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                         </div>
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra vierkant.eps" alt="" style="margin-top: 30px"></a>-->
-<!--                    </div>-->
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt="" style="margin-top: 30px"></a>-->
-<!--                    </div>-->
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo_RemkoKuhne.png" alt="" style="margin-top: 30px"></a>-->
-<!--                    </div>-->
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">-->
-<!--                        <a href="https://sabiencanton.nl/" target="_blank"><img src="images/sponsors/Logo_SabienCanton.png" alt="" style="margin-top: 30px"></a>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra vierkant.eps" alt="" style="margin-top: 30px"></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt="" style="margin-top: 30px"></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo_RemkoKuhne.png" alt="" style="margin-top: 30px"></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                        <a href="https://sabiencanton.nl/" target="_blank"><img src="images/sponsors/Logo_SabienCanton.png" alt="" style="margin-top: 30px"></a>
+                    </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                       <a href="https://www.friz.nu/markup/home.php" target="_blank"><img src="images/sponsors/logo friz.png" alt="" style="margin-top: 30px"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
       <!-- section end -->
 
       <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
