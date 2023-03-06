@@ -690,6 +690,9 @@
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                        <a href="https://www.friz.nu/markup/home.php" target="_blank"><img src="images/sponsors/logo friz.png" alt=""></a>
                     </div>
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                       <a href="https://deplataan-skobos.nl/" target="_blank"><img src="images/sponsors/Logo-Plataan .png" alt=""></a>
+                    </div>
                 </div>
             </div>
         </div>
