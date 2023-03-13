@@ -565,7 +565,7 @@
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
             <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
         </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
             <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
         </div>
     </div>
@@ -585,67 +585,67 @@
       <div class="clients-container">
           <div class="clients">
                  
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="100">
                       <a href="" target="_blank"><img src="images/sponsors/dvk.jpg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.tavolino.nl/" target="_blank"><img src="images/sponsors/Logo-tavolino2.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                     <a href="https://www.campingdebocht.nl/" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.verspaandonk-herenmode.nl/" target="_blank"><img src="images/sponsors/logo-verspaandonk.svg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="100">
                       <a href="https://www.desterkaasculinair.nl/" target="_blank"><img src="images/sponsors/Logo-deSterScherp.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.fotooetelaar.nl/" target="_blank"><img src="images/sponsors/Logo-Oetelaar.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://destomerijoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-STomerij.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.facebook.com/cafezaaltvrijthof" target="_blank"><img src="images/sponsors/Logo-Vrijthof.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.brasserietof.nl/" target="_blank"><img src="images/sponsors/Logo-BRASSERIE-TOF.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.gelagkamer.nl/" target="_blank"><img src="images/sponsors/Logo-GELAGKAMER.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="http://www.oudbrabant.nl/" target="_blank"><img src="images/sponsors/Logo-Oud-Brabant.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.lafleurie.nl/" target="_blank"><img src="images/sponsors/Logo-Fleurie-BZ.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.debeurs-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-de_beurs.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://jasminegardenoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Jasmine-Garden.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="" target="_blank"><img src="images/sponsors/wilbert.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.facebook.com/profile.php?id=100043338206065" target="_blank"><img src="images/sponsors/Voorzijde pand.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.facebook.com/profile.php?id=100054649201226" target="_blank"><img src="images/sponsors/Logo-De-Woudgalm.png" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://www.facebook.com/jumbooirschot" target="_blank"><img src="images/sponsors/Logo-jumbo-oirschot.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="https://primera-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-primera.jpg" alt=""></a>
                   </div>
-                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                       <a href="" target="_blank"><img src="images/sponsors/Logo-CafetariaKorenaar.png" alt=""></a>
                   </div>
           </div>
@@ -666,31 +666,31 @@
         <div class="container">
             <div class="clients-container"> 
                 <div class="clients">
-                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                             <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
                         </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                         <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                              <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                         </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                         <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra-vierkant.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                         <a href="https://www.museumdevierquartieren.nl/" target="_blank"><img src="images/sponsors/Logo_Miuseum-RGB-blauw.jpg" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                         <a href="https://remkokuhne.com/" target="_blank"><img src="images/sponsors/Logo-RemkoKuhne.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                         <a href="https://sabiencanton.nl/" target="_blank"><img src="images/sponsors/Logo-SabienCanton.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                        <a href="https://www.friz.nu/markup/home.php" target="_blank"><img src="images/sponsors/logo friz.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="400" data-effect-delay="200">
                        <a href="https://deplataan-skobos.nl/" target="_blank"><img src="images/sponsors/Logo-Plataan.png" alt=""></a>
                     </div>
                 </div>
