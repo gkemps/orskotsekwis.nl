@@ -7139,9 +7139,9 @@ h6.media-heading {
 
 .clients .client-image {
   text-align: center;
-  width: 80px;
-  height: 80px;
-  margin: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
   display: inline-block;
 }
 
