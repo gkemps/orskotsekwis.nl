@@ -7139,7 +7139,7 @@ h6.media-heading {
 
 .clients .client-image {
   text-align: center;
-  
+  width: 100px;
   height: 80px;
   margin: 5px;
   display: inline-block;
