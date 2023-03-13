@@ -654,6 +654,7 @@
 
 
 
+
             <div class="container">
                 <div class="row justify-content-lg-center">
                     <div class="col-lg-8 text-center pv-10">
@@ -672,7 +673,7 @@
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                         <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>
                     </div>
-                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                              <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                         </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
@@ -696,6 +697,8 @@
                 </div>
             </div>
         </div>
+-->
+
       <!-- section end -->
 
       <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
