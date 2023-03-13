@@ -562,10 +562,10 @@
 <div class="container">
   <div class="clients-container">
     <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="600" data-effect-delay="200">
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="6000" data-effect-delay="200">
             <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
         </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="600" data-effect-delay="200">
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="6000" data-effect-delay="200">
             <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
         </div>
     </div>
