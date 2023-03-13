@@ -7137,6 +7137,14 @@ h6.media-heading {
   margin: 10px auto;
 }
 
+.clients-headsponsor {
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  display: inline-block;
+}
+
 .clients .client-image {
   text-align: center;
   width: 110px;
