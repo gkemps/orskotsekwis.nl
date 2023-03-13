@@ -562,10 +562,10 @@
 <div class="container">
   <div class="clients-container">
     <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="6000" data-effect-delay="200">
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
             <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
         </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" height="6000" data-effect-delay="200">
+        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
             <a href="https://de-burgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png" alt=""></a>
         </div>
     </div>
@@ -588,16 +588,16 @@
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
                       <a href="" target="_blank"><img src="images/sponsors/dvk.jpg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://www.tavolino.nl/" target="_blank"><img src="images/sponsors/Logo-tavolino2.png" alt=""></a>
                   </div>
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                     <a href="https://www.campingdebocht.nl/" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                       <a href="https://www.verspaandonk-herenmode.nl/" target="_blank"><img src="images/sponsors/logo-verspaandonk.svg" alt=""></a>
                   </div>
-                  <div class="client-image-large object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+                  <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
                       <a href="https://www.desterkaasculinair.nl/" target="_blank"><img src="images/sponsors/Logo-deSterScherp.png" alt=""></a>
                   </div>
                   <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
