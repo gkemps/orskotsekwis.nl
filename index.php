@@ -560,7 +560,7 @@
         </div>
 
 <div class="container">
-  <div class="clients-container">
+  <div class="clients-container clients-headsponsor">
     <div class="clients">
         <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
             <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
