@@ -157,7 +157,7 @@
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
                           <p>Inschrijving opent woensdag 1 november. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
-                          <h2>De <a href="download/UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
+                          <h2>De <a href="UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> van 2023 is bekend! Download hier het boekje van 2023 inclusief <a href="OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
                         <?php endif ?>
                       </div>
                         <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
@@ -171,7 +171,7 @@
                     <?php else: ?>
                     <div class="col-md-12">
                         De inschrijving is gesloten
-                        <h2>De <a href="download/UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
+                        <h2>De <a href="UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> van 2023 is bekend! Download hier het boekje van 2023 inclusief <a href="OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
                     </div>
                     <?php endif ?>
                   </div>
