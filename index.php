@@ -1,6 +1,6 @@
 <?php /**  */
- const START_OF_SUBSCRIPTION = 1671231601;   //zaterdag 17 december 00:00:01 CET
- const END_OF_SUBSCRIPTION   = 1678057201;   //maandag 6 maart 00:00:01 CET
+ const START_OF_SUBSCRIPTION = 1698793201;   // 1 november 00:00:01 CET
+ const END_OF_SUBSCRIPTION   = 1709333999;   // 1 maart 23:59:59 CET
  
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
@@ -134,7 +134,7 @@
             <div class="col-lg-8 text-center space-bottom">
               <div class="title large_white"><b>Orskôtse Kwis</b></div>
               <div class="separator"></div>
-                <p class="text-center lead">Volgende editie: 18 maart 2023</p>
+                <p class="text-center lead">Volgende editie: 16 maart 2024</p>
             </div>
           </div>
           <!-- countdown start -->
@@ -156,7 +156,8 @@
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent zaterdag 17 december. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent woensdag 1 november. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <h2>De <a href="download/UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
                         <?php endif ?>
                       </div>
                         <?php if (time() > START_OF_SUBSCRIPTION && time() < END_OF_SUBSCRIPTION): ?>
@@ -170,8 +171,7 @@
                     <?php else: ?>
                     <div class="col-md-12">
                         De inschrijving is gesloten
-<!--                        <h2>De <a href="download/UitslagOrskotseKwis2019.pptx" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/kwis_2019_antwoorden_boek.pdf" style="color: #22B573">antwoorden</a>.</h2>-->
-<!--                        <h3>Antwoorden <a href="download/foto_associatie.zip" style="color: #22B573">foto ronde</a> los te downloaden</h3>-->
+                        <h2>De <a href="download/UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> is bekend! Download hier het boekje inclusief <a href="download/OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
                     </div>
                     <?php endif ?>
                   </div>
@@ -195,7 +195,7 @@
             <div class="modal-body">
               <p>Voor tijdens de kwis:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 18 maart vanaf 19:00uur</li>
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 16 maart vanaf 19:00uur</li>
                 <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
                 <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
                 <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
@@ -204,8 +204,8 @@
               </ul>
               <p>Inschrijven:</p>
               <ul class="list-icons">
-                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 5 maart 23:59u</li>
-                <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="reglement.pdf" target="_blank">reglement</a></li>
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 maart 23:59u</li>
+                <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="Reglement Orskôtse Kwis-v4.pdf" target="_blank">reglement</a></li>
                 <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
               </ul>
@@ -312,7 +312,7 @@
                 <div class="form-group">
                   <div class="form-check">
                     <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a href="reglement.pdf" target="_blank">reglement</a> en daarmee dat de teamcaptain 18 jaar of ouder is en woonachtig in de gemeente Oirschot
+                      <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a href="Reglement Orskôtse Kwis-v4.pdf" target="_blank">reglement</a> en daarmee dat de teamcaptain 18 jaar of ouder is en woonachtig in de gemeente Oirschot
                     </label>
                   </div>
                 </div>
@@ -343,7 +343,7 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                     </div>
                     <div class="modal-body"id="step1_body">
-                        <p>Leuk dat jullie je willen inschrijven voor de 4e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) in een van de voorgaande edities
+                        <p>Leuk dat jullie je willen inschrijven voor de 5e editie van de Orskôtse Kwis! Heb jij en je team (of een gedeelte daarvan) in een van de voorgaande edities
                             ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.</p>
                         <p style="text-align: center">
                             <button type="button" id="button-team-old" class="btn btn-default">Wij deden al eerder mee!</button>
@@ -398,7 +398,7 @@
                     <input type="text" class="form-control" name="hobby" id="hobby" placeholder="Hobby's" required>
                   </div>
                 </div>
-                <div class="form-group">
+<!--                <div class="form-group">
                   <label for="graphic" class="col-sm-12 col-form-label">Heb je ervaring als (web)designer, DTP-er of grafisch vormgever? Zo ja, welke?</label>
                   <div class="col-sm-10">
                     <textarea class="form-control" name="graphic" id="graphic" required></textarea>
@@ -410,7 +410,7 @@
                     <textarea class="form-control" name="creative" id="creative" required></textarea>
                   </div>
                 </div>
-                <div class="form-group">
+                <div class="form-group"> -->
                   <label for="reason" class="col-sm-12 col-form-label">Wat denk jij toe te kunnen voegen aan Team Orskôtse Kwis?</label>
                   <div class="col-sm-10">
                     <textarea class="form-control" name="reason" id="reason" required></textarea>
@@ -453,8 +453,8 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">De kwis: 18 maart 2023</h4>
-<!--                      Race tegen de klok start om 19:00u-->
+                      <h4 class="media-heading">De Kwis: 16 maart 2024</h4>
+                        Race tegen de klok start om 19:00u
                         Houd onze socials in de gaten voor meer nieuws
                     </div>
                   </div>
@@ -465,7 +465,7 @@
                       </a>
                     </div>
                     <div class="media-body">
-                      <h4 class="media-heading">Prijsuitreiking: 25 maart 2023</h4>
+                      <h4 class="media-heading">Prijsuitreiking: 23 maart 2024</h4>
                       Wie is het slimste team van Oirschot?
                     </div>
                   </div>
@@ -476,7 +476,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving geopend: 17 december 2022</h4>
+                            <h4 class="media-heading">Inschrijving geopend: 1 november 2023</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
@@ -487,7 +487,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Deadline inschrijven: 5 maart 2023</h4>
+                            <h4 class="media-heading">Deadline inschrijven: 1 maart 2024</h4>
                             Inschrijving hierna niet meer mogelijk
                         </div>
                     </div>
@@ -535,7 +535,7 @@
                     <li><i class="icon-check-1"></i> Teamcaptain is minimaal 18 jaar & woonachtig in Oirschot</li>
                     <li><i class="icon-check-1"></i> Kosten bedragen €15 euro per team</li>
                     <li><i class="icon-check-1"></i> Winnaars steunen zelf gekozen goed doel, maatschappelijk relevant voor Oirschotse gemeenschap</li>
-                    <li><i class="icon-check-1"></i> Lees de rest in ons <a href="reglement.pdf">reglement</a></li>
+                    <li><i class="icon-check-1"></i> Lees de rest in ons <a href="Reglement Orskôtse Kwis-v4.pdf">reglement</a></li>
                   </ul>
                 </div>
               </div>
@@ -673,7 +673,7 @@
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                         <a href="https://winterparadijs.nl/" target="_blank"><img src="images/sponsors/Logo-Winterparadijs-BsingV1z.png" alt=""></a>
                     </div>
-<!--                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+                    <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
                              <a href="https://sntzl.nl/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
                         </div>
                     <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
@@ -697,7 +697,6 @@
                 </div>
             </div>
         </div>
--->
 
       <!-- section end -->
 
