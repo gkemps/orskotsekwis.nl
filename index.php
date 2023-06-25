@@ -1,6 +1,6 @@
 <?php /**  */
- const START_OF_SUBSCRIPTION = 1698793201;   // 1 november 00:00:01 CET
- const END_OF_SUBSCRIPTION   = 1709333999;   // 1 maart 23:59:59 CET
+ const START_OF_SUBSCRIPTION = 1698793201;   // 1 november 2023 00:00:01 CET
+ const END_OF_SUBSCRIPTION   = 1709333999;   // 1 maart 2024 23:59:59 CET
  
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
 ?>
@@ -205,8 +205,8 @@
               <p>Inschrijven:</p>
               <ul class="list-icons">
                 <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 maart 23:59u</li>
-                <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="Reglement Orskôtse Kwis-v4.pdf" target="_blank">reglement</a></li>
-                <li><i class="fa fa-eur"></i>Inschrijving kost 15 euro per team</li>
+                <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="Reglement Orskôtse Kwis-v5.pdf" target="_blank">reglement</a></li>
+                <li><i class="fa fa-eur"></i>Inschrijving kost 20 euro per team</li>
                 <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant is voor de Oirschotse gemeenschap</li>
               </ul>
               <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
@@ -312,7 +312,7 @@
                 <div class="form-group">
                   <div class="form-check">
                     <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a href="Reglement Orskôtse Kwis-v4.pdf" target="_blank">reglement</a> en daarmee dat de teamcaptain 18 jaar of ouder is en woonachtig in de gemeente Oirschot
+                      <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a href="Reglement Orskôtse Kwis-v5.pdf" target="_blank">reglement</a> en daarmee dat de teamcaptain 18 jaar of ouder is en woonachtig in de gemeente Oirschot.
                     </label>
                   </div>
                 </div>
@@ -533,9 +533,9 @@
 					<li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
                     <li><i class="icon-check-1"></i> Teams zonder maximum aantal personen</li>
                     <li><i class="icon-check-1"></i> Teamcaptain is minimaal 18 jaar & woonachtig in Oirschot</li>
-                    <li><i class="icon-check-1"></i> Kosten bedragen €15 euro per team</li>
+                    <li><i class="icon-check-1"></i> Kosten bedragen €20 per team</li>
                     <li><i class="icon-check-1"></i> Winnaars steunen zelf gekozen goed doel, maatschappelijk relevant voor Oirschotse gemeenschap</li>
-                    <li><i class="icon-check-1"></i> Lees de rest in ons <a href="Reglement Orskôtse Kwis-v4.pdf">reglement</a></li>
+                    <li><i class="icon-check-1"></i> Lees de rest in ons <a href="Reglement Orskôtse Kwis-v5.pdf">reglement</a></li>
                   </ul>
                 </div>
               </div>
