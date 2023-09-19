@@ -1,5 +1,5 @@
 <?php /**  */
- const START_OF_SUBSCRIPTION = 1698793201;   // 1 november 2023 00:00:01 CET
+ const START_OF_SUBSCRIPTION = 1704236401;   // 3 januari 2024 00:00:01 CET
  const END_OF_SUBSCRIPTION   = 1709333999;   // 1 maart 2024 23:59:59 CET
  
  $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_SUBSCRIPTION;
@@ -156,7 +156,7 @@
                         <?php if (time() > START_OF_SUBSCRIPTION): ?>
                           <p>Schrijf jouw team in via de button hiernaast. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                         <?php else: ?>
-                          <p>Inschrijving opent woensdag 1 november. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
+                          <p>Inschrijving opent woensdag 3 januari. Lees eerst: <a href="#" data-toggle="modal" data-target="#myModal">goed om te weten als teamcaptain</a></p>
                           <h2>De <a href="UitslagOrskotseKwis2023.pdf" style="color: #22B573">uitslag</a> van 2023 is bekend! Download hier het boekje van 2023 inclusief <a href="OrskotseKwisAntwoordenboekSite2023.pdf" style="color: #22B573">antwoorden</a>.</h2>
                         <?php endif ?>
                       </div>
@@ -363,7 +363,7 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Kwis 2024</h4>
+              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Orskôtse Kwis</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
@@ -476,7 +476,7 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h4 class="media-heading">Inschrijving geopend: 1 november 2023</h4>
+                            <h4 class="media-heading">Inschrijving geopend: 3 januari 2024</h4>
                             Informeer je vrienden/familie en stel je team samen!
                         </div>
                     </div>
