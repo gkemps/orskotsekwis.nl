@@ -51,37 +51,21 @@ $mail->Port = 465;
 $mail->CharSet = 'UTF-8';
 $mail->Encoding = 'base64';
 
-// if (!$conn->query($sql)) {
-//     $message = sprintf("Errormessage: %s\n(%s)\n(%s)\n", $conn->error, implode(";", $_REQUEST), $sql);
-
-//     try {
-//         $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
-//         $mail->addAddress('inschrijven@orskotsekwis.nl');
-//         $mail->Subject = "Er ging iets mis met verwerken inschrijving";
-//         $mail->Body = $message;
-
-//         $mail->send();
-//     } catch(Exception $e) {
-//         die("Oeps, er ging iets fout. Probeer het later nog een keer.");
-//     }
-
-//     die("Oeps, er ging iets fout. Probeer het later nog een keer.");
-// }
-
-
-try {
-    $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
-    $mail->addReplyTo('info@orskotsekwis.nl', 'Team Orskôtse Kwis');
-    $mail->addAddress($email, $teamcaptain);
-    $mail->addBCC('inschrijven@orskotsekwis.nl');
-    $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Bedankt voor je inschrijving';
-    $mail->Body = $message;
-    $mail->AltBody = 'Bedankt voor je inschrijving, kijk op https://www.orskotsekwis.nl/bedankt.html voor verdere instructies';
-
-    //$mail->send();
-} catch (Exception $e) {
-    die("Oeps, je inschrijving is goed verwerkt, maar we konden je geen bevestiging sturen. Neem contact op met info@orskotsekwis.nl om te kijken of je inschrijving goed is binnengekomen");
+if (false !== $conn->query($sql)) {
+    try {
+        $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
+        $mail->addReplyTo('info@orskotsekwis.nl', 'Team Orskôtse Kwis');
+        $mail->addAddress($email, $teamcaptain);
+        $mail->addBCC('inschrijven@orskotsekwis.nl');
+        $mail->isHTML(true);                                  //Set email format to HTML
+        $mail->Subject = 'Bedankt voor je inschrijving';
+        $mail->Body = $message;
+        $mail->AltBody = 'Bedankt voor je inschrijving, kijk op https://www.orskotsekwis.nl/bedankt.html voor verdere instructies';
+    
+        $mail->send();
+    } catch (Exception $e) {
+        die("Oeps, je inschrijving is goed verwerkt, maar we konden je geen bevestiging sturen. Neem contact op met info@orskotsekwis.nl om te kijken of je inschrijving goed is binnengekomen");
+    }
 }
 
 $conn->close();
