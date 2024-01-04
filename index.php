@@ -321,6 +321,7 @@
                     <?php if (isset($fields['pincode'])): ?>
                         <input type="hidden" name="pincode" value="<?php echo $fields['pincode'] ?? ''; ?>"/>
                     <?php endif ?>
+                    <input type="checkbox" name="consent" value="1" style="display:none !important" tabindex="-1" autocomplete="off">
                     <button type="submit" class="btn btn-default">Inschrijven</button><br/><br />
                     * Goed doel is maatschappelijk relevant voor de Oirschotse gemeenschap. Sport- en buurtverenigingen zijn niet toegestaan.
                   </div>

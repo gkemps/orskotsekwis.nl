@@ -11,6 +11,10 @@ if (empty($_POST['teamname'])) {
     die("post error");
 }
 
+if (!empty($_REQUEST['consent']) && (bool) $_REQUEST['consent'] == TRUE) {
+   die("spam bot");
+}
+
 $teamcode = $conn->real_escape_string($_POST['teamcode']);
 $teamname = $conn->real_escape_string($_POST['teamname']);
 $teamcaptain = $conn->real_escape_string($_POST['teamcaptain']);
