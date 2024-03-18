@@ -2,3 +2,4 @@
 connect.php
 secrets.php
 vendor
+/nbproject/private/
