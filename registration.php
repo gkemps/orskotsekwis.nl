@@ -55,22 +55,23 @@ $mail->Port = 465;
 $mail->CharSet = 'UTF-8';
 $mail->Encoding = 'base64';
 
-if (false !== $conn->query($sql)) {
-    try {
-        $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
-        $mail->addReplyTo('info@orskotsekwis.nl', 'Team Orskôtse Kwis');
-        $mail->addAddress($email, $teamcaptain);
-        $mail->addBCC('inschrijven@orskotsekwis.nl');
-        $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = 'Bedankt voor je inschrijving';
-        $mail->Body = $message;
-        $mail->AltBody = 'Bedankt voor je inschrijving, kijk op https://www.orskotsekwis.nl/bedankt.html voor verdere instructies';
+//disable mail & insert into database
+// if (false !== $conn->query($sql)) {
+//     try {
+//         $mail->setFrom('no-reply@orskotsekwis.nl', 'Orskôtse Kwis');
+//         $mail->addReplyTo('info@orskotsekwis.nl', 'Team Orskôtse Kwis');
+//         $mail->addAddress($email, $teamcaptain);
+//         $mail->addBCC('inschrijven@orskotsekwis.nl');
+//         $mail->isHTML(true);                                  //Set email format to HTML
+//         $mail->Subject = 'Bedankt voor je inschrijving';
+//         $mail->Body = $message;
+//         $mail->AltBody = 'Bedankt voor je inschrijving, kijk op https://www.orskotsekwis.nl/bedankt.html voor verdere instructies';
     
-        $mail->send();
-    } catch (Exception $e) {
-        die("Oeps, je inschrijving is goed verwerkt, maar we konden je geen bevestiging sturen. Neem contact op met info@orskotsekwis.nl om te kijken of je inschrijving goed is binnengekomen");
-    }
-}
+//         $mail->send();
+//     } catch (Exception $e) {
+//         die("Oeps, je inschrijving is goed verwerkt, maar we konden je geen bevestiging sturen. Neem contact op met info@orskotsekwis.nl om te kijken of je inschrijving goed is binnengekomen");
+//     }
+// }
 
 $conn->close();
 
