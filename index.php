@@ -145,13 +145,13 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
             </p>
             <p class="text-center lead">
               We hebben met pijn in ons hart deze beslissing moeten maken. We willen jullie graag bedanken voor al
-              jullie vertrouwen, inzet en steun van de agelopen jaren.
+              jullie vertrouwen, inzet en steun van de afgelopen jaren.
             </p>
             <p class="text-center lead">
-              Speciale dank aan de sponsoren (zie onder) die de afgelopen edities hebben mogelijk gemaakt.
+              Speciale dank aan de sponsoren (zie onder) die de alle edities hebben mogelijk gemaakt.
             </p>
             <p class="text-center lead">
-              De komende periode zullen we gebruiken om het de resterende gelden te verdelen over de goede doelen die
+              De komende periode zullen we gebruiken om de resterende gelden te verdelen over de goede doelen die
               door de deelnemende teams zijn gesteund.
             </p>
           </div>
