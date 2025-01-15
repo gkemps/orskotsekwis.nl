@@ -139,17 +139,27 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
           <div class="col-lg-8 text-center space-bottom">
             <div class="title large_white"><b>Orskôtse Kwis</b></div>
             <div class="separator"></div>
-            <p class="text-center lead">Volgende editie: 16 maart 2024</p>
+            <p class="text-center lead">Helaas komt er een einde aan een mooie periode van de Orskôtse Kwis.
+              Orginatorisch gaat het ons
+              op dit moment niet lukken om de kwis voor een volgende keer te organiseren.
+            </p>
+            <p class="text-center lead">
+              We hebben met pijn in ons hart deze beslissing moeten maken. We willen jullie graag bedanken voor al
+              jullie vertrouwen, inzet en steun van de agelopen jaren.
+            </p>
+            <p class="text-center lead">
+              Speciale dank aan de sponsoren (zie onder) die de afgelopen edities hebben mogelijk gemaakt.
+            </p>
           </div>
         </div>
         <!-- countdown start -->
-        <div class="countdown clearfix"></div>
+        <!-- <div class="countdown clearfix"></div> -->
         <!-- countdown end -->
       </div>
       <!-- section end -->
       <!-- section start -->
       <!-- ================ -->
-      <div class="pv-40 dark-translucent-bg">
+      <!-- <div class="pv-40 dark-translucent-bg">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
@@ -195,251 +205,254 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- section end -->
-    </div>
-    <!-- banner end -->
+      <!-- </div> -->
+      <!-- banner end -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">Goed om te weten als teamcaptain</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <!-- Modal -->
+      <!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myModalLabel">Goed om te weten als teamcaptain</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                  aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <p>Voor tijdens de kwis:</p>
+              <ul class="list-icons">
+                <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 16 maart vanaf 19:00uur</li>
+                <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
+                <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
+                <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
+                <li><i class="fa fa-desktop"></i>Zorg voor snelle internetverbinding</li>
+                <li><i class="fa fa-bicycle"></i>Wees voorbereid op opdrachten buitenshuis</li>
+              </ul>
+              <p>Inschrijven:</p>
+              <ul class="list-icons">
+                <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 maart 23:59u</li>
+                <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="Reglement Orskôtse Kwis-v5.pdf"
+                    target="_blank">reglement</a></li>
+                <li><i class="fa fa-eur"></i>Inschrijving kost 20 euro per team</li>
+                <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant
+                  is voor de Oirschotse gemeenschap</li>
+              </ul>
+              <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+            </div>
           </div>
-          <div class="modal-body">
-            <p>Voor tijdens de kwis:</p>
-            <ul class="list-icons">
-              <li><i class="fa fa-clock-o"></i>Kwis is zaterdag 16 maart vanaf 19:00uur</li>
-              <li><i class="fa fa-home"></i>Je werkt met je team vanaf een eigen locatie</li>
-              <li><i class="fa fa-venus-mars"></i>Stel je team gevarieerd samen qua leeftijd en interesses</li>
-              <li><i class="fa fa-group"></i>Advies: minimaal 10 personen</li>
-              <li><i class="fa fa-desktop"></i>Zorg voor snelle internetverbinding</li>
-              <li><i class="fa fa-bicycle"></i>Wees voorbereid op opdrachten buitenshuis</li>
-            </ul>
-            <p>Inschrijven:</p>
-            <ul class="list-icons">
-              <li><i class="fa fa-flag-checkered"></i>Inschrijf deadline op 1 maart 23:59u</li>
-              <li><i class="fa fa-file-text-o"></i>Lees voor inschrijving ons <a href="Reglement Orskôtse Kwis-v5.pdf"
-                  target="_blank">reglement</a></li>
-              <li><i class="fa fa-eur"></i>Inschrijving kost 20 euro per team</li>
-              <li><i class="fa fa-trophy"></i>Winnaars steunen een zelf gekozen goed doel dat maatschappelijk relevant
-                is voor de Oirschotse gemeenschap</li>
-            </ul>
-            <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+        </div>
+      </div> -->
+
+      <!-- Modal -->
+      <!--        <div class="modal fade" id="myFirstAssigmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
+      <!--            <div class="modal-dialog" role="document">-->
+      <!--                <div class="modal-content">-->
+      <!--                    <div class="modal-header">-->
+      <!--                        <h4 class="modal-title" id="myModalLabel">Opwarm opdracht 2019</h4>-->
+      <!--                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>-->
+      <!--                    </div>-->
+      <!--                    <div class="modal-body">-->
+      <!--                        <p>Belangrijk:</p>-->
+      <!--                        <ul class="list-icons">-->
+      <!--                            <li><i class="fa fa-check"></i>Maak een raamdecoratie (minimaal A3 formaat)</li>-->
+      <!--                            <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>-->
+      <!--                            <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>-->
+      <!--                            <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>-->
+      <!--                            <li><i class="fa fa-check"></i>Vermeld bij iedere foto je teamnaam en adres</li>-->
+      <!--                            <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>-->
+      <!--                        </ul>-->
+      <!--                        <p>Bonus punten:</p>-->
+      <!--                        <ul class="list-icons">-->
+      <!--                            <li><i class="fa fa-thumbs-up"></i>Hoe groter, hoe beter</li>-->
+      <!--                            <li><i class="fa fa-thumbs-up"></i>Meerdere ramen op verschillende locaties</li>-->
+      <!--                            <li><i class="fa fa-thumbs-up"></i>Creativiteit wordt altijd beloond</li>-->
+      <!--                        </ul>-->
+      <!--                        <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>-->
+      <!--                    </div>-->
+      <!--                    <div class="modal-footer">-->
+      <!--                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>-->
+      <!--                    </div>-->
+      <!--                </div>-->
+      <!--            </div>-->
+      <!--        </div>-->
+
+      <?php
+      $fields = [];
+      if (isset($_GET['id'])) {
+        include "team.php";
+      }
+      ?>
+      <!-- Form Modal -->
+      <div class="modal fade" id="myFormModal" tabindex="-1" role="dialog" aria-labelledby="myFormModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myFormModalLabel">Inschrijven Orskôtse Kwis</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                  aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="registration.php" method="post">
+                <div class="form-group row">
+                  <label for="teamnaam" class="col-sm-2 col-form-label">Teamnaam</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="teamname" id="teamnaam"
+                      placeholder="(Voorlopige) teamnaam, later nog aan te passen" <?php echo isset($fields['teamname']) ? "value=\"{$fields['teamname']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="teamcaptain" class="col-sm-2 col-form-label">Teamcaptain</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="teamcaptain" id="teamcaptain"
+                      placeholder="Naam teamcaptain" <?php echo isset($fields['teamcaptain']) ? "value=\"{$fields['teamcaptain']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="email" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" name="email" id="email"
+                      placeholder="Emailadres teamcaptain" <?php echo isset($fields['email']) ? "value=\"{$fields['email']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="telephone" class="col-sm-2 col-form-label">Telefoonnummer</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="telephone" id="telephone"
+                      placeholder="Telefoonnummer teamcaptain" <?php echo isset($fields['telephone']) ? "value=\"{$fields['telephone']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="teamsize" class="col-sm-2 col-form-label">Team grootte</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="teamsize" id="teamsize"
+                      placeholder="Verwacht aantal teamgenoten" <?php echo isset($fields['teamsize']) ? "value=\"{$fields['teamsize']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="telephone" class="col-sm-2 col-form-label">Goed doel *</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="charity" id="charity" placeholder="Jullie goede doel"
+                      <?php echo isset($fields['charity']) ? "value=\"{$fields['charity']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="telephone" class="col-sm-2 col-form-label">Locatie</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="location" id="location"
+                      placeholder="Adres speellocatie" <?php echo isset($fields['location']) ? "value=\"{$fields['location']}\"" : "" ?> required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a
+                        href="Reglement Orskôtse Kwis-v5.pdf" target="_blank">reglement</a> en daarmee dat de
+                      teamcaptain
+                      18 jaar of ouder is en woonachtig in de gemeente Oirschot.
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <div class="col-sm-12">
+                    <?php if (isset($fields['pincode'])): ?>
+                      <input type="hidden" name="pincode" value="<?php echo $fields['pincode'] ?? ''; ?>" />
+                    <?php endif ?>
+                    <input type="checkbox" name="consent" value="1" style="display:none !important" tabindex="-1"
+                      autocomplete="off">
+                    <button type="submit" class="btn btn-default">Inschrijven</button><br /><br />
+                    * Goed doel is maatschappelijk relevant voor de Oirschotse gemeenschap. Sport- en buurtverenigingen
+                    zijn niet toegestaan.
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Modal -->
-    <!--        <div class="modal fade" id="myFirstAssigmentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">-->
-    <!--            <div class="modal-dialog" role="document">-->
-    <!--                <div class="modal-content">-->
-    <!--                    <div class="modal-header">-->
-    <!--                        <h4 class="modal-title" id="myModalLabel">Opwarm opdracht 2019</h4>-->
-    <!--                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>-->
-    <!--                    </div>-->
-    <!--                    <div class="modal-body">-->
-    <!--                        <p>Belangrijk:</p>-->
-    <!--                        <ul class="list-icons">-->
-    <!--                            <li><i class="fa fa-check"></i>Maak een raamdecoratie (minimaal A3 formaat)</li>-->
-    <!--                            <li><i class="fa fa-check"></i>Gebruik ons logo in je decoratie</li>-->
-    <!--                            <li><i class="fa fa-check"></i>Laat je teamnaam zien</li>-->
-    <!--                            <li><i class="fa fa-check"></i>Maak foto's en stuur deze naar raam@orskotsekwis.nl</li>-->
-    <!--                            <li><i class="fa fa-check"></i>Vermeld bij iedere foto je teamnaam en adres</li>-->
-    <!--                            <li><i class="fa fa-check"></i>Laat je raamdecoratie hangen tot en met 16 maart</li>-->
-    <!--                        </ul>-->
-    <!--                        <p>Bonus punten:</p>-->
-    <!--                        <ul class="list-icons">-->
-    <!--                            <li><i class="fa fa-thumbs-up"></i>Hoe groter, hoe beter</li>-->
-    <!--                            <li><i class="fa fa-thumbs-up"></i>Meerdere ramen op verschillende locaties</li>-->
-    <!--                            <li><i class="fa fa-thumbs-up"></i>Creativiteit wordt altijd beloond</li>-->
-    <!--                        </ul>-->
-    <!--                        <p>Toch nog vragen? Mail ze naar <a href="mailto:info@orskotsekwis.nl">info@orskotsekwis.nl</a></p>-->
-    <!--                    </div>-->
-    <!--                    <div class="modal-footer">-->
-    <!--                        <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>-->
-    <!--                    </div>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <?php
-    $fields = [];
-    if (isset($_GET['id'])) {
-      include "team.php";
-    }
-    ?>
-    <!-- Form Modal -->
-    <div class="modal fade" id="myFormModal" tabindex="-1" role="dialog" aria-labelledby="myFormModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myFormModalLabel">Inschrijven Orskôtse Kwis</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          </div>
-          <div class="modal-body">
-            <form action="registration.php" method="post">
-              <div class="form-group row">
-                <label for="teamnaam" class="col-sm-2 col-form-label">Teamnaam</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="teamname" id="teamnaam"
-                    placeholder="(Voorlopige) teamnaam, later nog aan te passen" <?php echo isset($fields['teamname']) ? "value=\"{$fields['teamname']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="teamcaptain" class="col-sm-2 col-form-label">Teamcaptain</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="teamcaptain" id="teamcaptain"
-                    placeholder="Naam teamcaptain" <?php echo isset($fields['teamcaptain']) ? "value=\"{$fields['teamcaptain']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="email" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Emailadres teamcaptain"
-                    <?php echo isset($fields['email']) ? "value=\"{$fields['email']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="telephone" class="col-sm-2 col-form-label">Telefoonnummer</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="telephone" id="telephone"
-                    placeholder="Telefoonnummer teamcaptain" <?php echo isset($fields['telephone']) ? "value=\"{$fields['telephone']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="teamsize" class="col-sm-2 col-form-label">Team grootte</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="teamsize" id="teamsize"
-                    placeholder="Verwacht aantal teamgenoten" <?php echo isset($fields['teamsize']) ? "value=\"{$fields['teamsize']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="telephone" class="col-sm-2 col-form-label">Goed doel *</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="charity" id="charity" placeholder="Jullie goede doel"
-                    <?php echo isset($fields['charity']) ? "value=\"{$fields['charity']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group row">
-                <label for="telephone" class="col-sm-2 col-form-label">Locatie</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="location" id="location" placeholder="Adres speellocatie"
-                    <?php echo isset($fields['location']) ? "value=\"{$fields['location']}\"" : "" ?> required>
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" required> Ik ga akkoord met het <a
-                      href="Reglement Orskôtse Kwis-v5.pdf" target="_blank">reglement</a> en daarmee dat de teamcaptain
-                    18 jaar of ouder is en woonachtig in de gemeente Oirschot.
-                  </label>
-                </div>
-              </div>
-              <div class="form-group row">
-                <div class="col-sm-12">
-                  <?php if (isset($fields['pincode'])): ?>
-                    <input type="hidden" name="pincode" value="<?php echo $fields['pincode'] ?? ''; ?>" />
-                  <?php endif ?>
-                  <input type="checkbox" name="consent" value="1" style="display:none !important" tabindex="-1"
-                    autocomplete="off">
-                  <button type="submit" class="btn btn-default">Inschrijven</button><br /><br />
-                  * Goed doel is maatschappelijk relevant voor de Oirschotse gemeenschap. Sport- en buurtverenigingen
-                  zijn niet toegestaan.
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+      <!-- Form Modal -->
+      <div class="modal fade" id="myStep1Modal" tabindex="-1" role="dialog" aria-labelledby="myStep1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myStep1ModalLabel">Inschrijven Orskôtse Kwis</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                  aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body" id="step1_body">
+              <p>Leuk dat jullie je willen inschrijven voor de 5e editie van de Orskôtse Kwis! Heb jij en je team (of
+                een
+                gedeelte daarvan) in een van de voorgaande edities
+                ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.
+              </p>
+              <p style="text-align: center">
+                <button type="button" id="button-team-old" class="btn btn-default">Wij deden al eerder mee!</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" id="button-team-new" class="btn btn-default">Wij doen voor het eerst mee!</button>
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Afsluiten</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Form Modal -->
-    <div class="modal fade" id="myStep1Modal" tabindex="-1" role="dialog" aria-labelledby="myStep1ModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myStep1ModalLabel">Inschrijven Orskôtse Kwis</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          </div>
-          <div class="modal-body" id="step1_body">
-            <p>Leuk dat jullie je willen inschrijven voor de 5e editie van de Orskôtse Kwis! Heb jij en je team (of een
-              gedeelte daarvan) in een van de voorgaande edities
-              ook al meegedaan? Druk dan op de linker knop. Nog niet eerder meegedaan? Druk dan op de rechter button.
-            </p>
-            <p style="text-align: center">
-              <button type="button" id="button-team-old" class="btn btn-default">Wij deden al eerder mee!</button>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              <button type="button" id="button-team-new" class="btn btn-default">Wij doen voor het eerst mee!</button>
-            </p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Afsluiten</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Form Modal -->
-    <div class="modal fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Orskôtse Kwis</h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-          </div>
-          <div class="modal-body">
-            <form action="help.php" method="post">
-              <div class="form-group">
-                <label for="name" class="col-sm-2 col-form-label">Naam</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="name" id="name" placeholder="Voor- en achternaam"
-                    required>
+      <!-- Form Modal -->
+      <div class="modal fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="myFormModalLabel">Ik wil graag helpen met de Orskôtse Kwis</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                  aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <form action="help.php" method="post">
+                <div class="form-group">
+                  <label for="name" class="col-sm-2 col-form-label">Naam</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Voor- en achternaam"
+                      required>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="email" class="col-sm-2 col-form-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Emailadres" required>
+                <div class="form-group">
+                  <label for="email" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Emailadres" required>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="age" class="col-sm-2 col-form-label">Leeftijd</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="age" id="age" placeholder="Leeftijd" required>
+                <div class="form-group">
+                  <label for="age" class="col-sm-2 col-form-label">Leeftijd</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="age" id="age" placeholder="Leeftijd" required>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="profession" class="col-sm-2 col-form-label">Beroep</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="profession" id="profession" placeholder="Beroep"
-                    required>
+                <div class="form-group">
+                  <label for="profession" class="col-sm-2 col-form-label">Beroep</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="profession" id="profession" placeholder="Beroep"
+                      required>
+                  </div>
                 </div>
-              </div>
-              <div class="form-group">
-                <label for="hobby" class="col-sm-2 col-form-label">Hobby's</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" name="hobby" id="hobby" placeholder="Hobby's" required>
+                <div class="form-group">
+                  <label for="hobby" class="col-sm-2 col-form-label">Hobby's</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" name="hobby" id="hobby" placeholder="Hobby's" required>
+                  </div>
                 </div>
-              </div>
-              <!--                <div class="form-group">
+                <!--                <div class="form-group">
                   <label for="graphic" class="col-sm-12 col-form-label">Heb je ervaring als (web)designer, DTP-er of grafisch vormgever? Zo ja, welke?</label>
                   <div class="col-sm-10">
                     <textarea class="form-control" name="graphic" id="graphic" required></textarea>
@@ -452,278 +465,281 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
                   </div>
                 </div>
                 <div class="form-group"> -->
-              <label for="reason" class="col-sm-12 col-form-label">Wat denk jij toe te kunnen voegen aan Team Orskôtse
-                Kwis?</label>
-              <div class="col-sm-10">
-                <textarea class="form-control" name="reason" id="reason" required></textarea>
-              </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-12">
-              <button type="submit" class="btn btn-default">Insturen</button><br /><br />
+                <label for="reason" class="col-sm-12 col-form-label">Wat denk jij toe te kunnen voegen aan Team Orskôtse
+                  Kwis?</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" name="reason" id="reason" required></textarea>
+                </div>
             </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-default">Insturen</button><br /><br />
+              </div>
+            </div>
+            </form>
           </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- main-container start -->
-  <!-- ================ -->
-  <section class="main-container">
+    <!-- main-container start -->
+    <!-- ================ -->
+    <section class="main-container">
+
+      <div class="container">
+        <div class="row">
+
+          <!-- main start -->
+          <!-- ================ -->
+          <!-- <div class="main col-md-12">
+            <div class="row">
+              <div class="col-lg-6">
+                <img src="images/section-image-kwis-1-rounded.png" alt="">
+              </div>
+              <div class="col-lg-6">
+                <h2 class="mt-4">Het belangrijkste</h2>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="fa fa-question"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">De Kwis: 16 maart 2024</h4>
+                    Race tegen de klok start om 19:00u
+                    Houd onze socials in de gaten voor meer nieuws
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Prijsuitreiking: 23 maart 2024</h4>
+                    Wie is het slimste team van Oirschot?
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="icon-pencil"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Inschrijving geopend: 3 januari 2024</h4>
+                    Informeer je vrienden/familie en stel je team samen!
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="fa fa fa-flag-checkered"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Deadline inschrijven: 1 maart 2024</h4>
+                    Inschrijving hierna niet meer mogelijk
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="fa fa-thumbs-up"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Dankzij jullie feedback: moeilijkheidsgraad bijgesteld</h4>
+                    Meer vragen en opdrachten die goed te doen zijn, maar zeker nog voldoende uitdaging!
+                  </div>
+                </div>
+                <div class="media">
+                  <div class="d-flex pr-4">
+                    <a href="#">
+                      <span class="icon circle small default-bg"><i class="fa fa-comments-o"></i> </span>
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Volg ons op socal media</h4>
+                    Like, share & tag je teamgenoten:
+                    <ul class="social-links circle">
+                      <li class="facebook"><a target="_blank" href="http://www.facebook.com/orskotse.kwis/"><i
+                            class="fa fa-facebook"></i></a></li>
+                      <li class="instagram"><a target="_blank" href="http://www.instagram.com/orskotsekwis/"><i
+                            class="fa fa-instagram"></i></a></li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-lg-6 order-lg-2">
+                <img class="pv-30" src="images/section-image-kwis-2-rounded.png" alt="">
+              </div>
+              <div class="col-lg-6 order-lg-1">
+                <h2 class="mt-4">Over de kwis</h2>
+                <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet
+                  Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen in
+                  maart
+                  alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie
+                  wordt het slimste team van Oirschot?</p>
+                <ul class="list-icons">
+                  <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
+                  <li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
+                  <li><i class="icon-check-1"></i> Teams zonder maximum aantal personen</li>
+                  <li><i class="icon-check-1"></i> Teamcaptain is minimaal 18 jaar & woonachtig in Oirschot</li>
+                  <li><i class="icon-check-1"></i> Kosten bedragen €20 per team</li>
+                  <li><i class="icon-check-1"></i> Winnaars steunen zelf gekozen goed doel, maatschappelijk relevant
+                    voor
+                    Oirschotse gemeenschap</li>
+                  <li><i class="icon-check-1"></i> Lees de rest in ons <a
+                      href="Reglement Orskôtse Kwis-v5.pdf">reglement</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> -->
+          <!-- main end -->
+
+        </div>
+      </div>
+    </section>
+    <!-- main-container end -->
+
+
+
 
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-8 text-center pv-10">
+          <h2 class="text-center">Hoofdsponsoren</h2>
+          <div class="separator"></div>
+        </div>
+      </div>
+    </div>
 
-        <!-- main start -->
-        <!-- ================ -->
-        <div class="main col-md-12">
-          <div class="row">
-            <div class="col-lg-6">
-              <img src="images/section-image-kwis-1-rounded.png" alt="">
-            </div>
-            <div class="col-lg-6">
-              <h2 class="mt-4">Het belangrijkste</h2>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="fa fa-question"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">De Kwis: 16 maart 2024</h4>
-                  Race tegen de klok start om 19:00u
-                  Houd onze socials in de gaten voor meer nieuws
-                </div>
-              </div>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Prijsuitreiking: 23 maart 2024</h4>
-                  Wie is het slimste team van Oirschot?
-                </div>
-              </div>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="icon-pencil"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Inschrijving geopend: 3 januari 2024</h4>
-                  Informeer je vrienden/familie en stel je team samen!
-                </div>
-              </div>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="fa fa fa-flag-checkered"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Deadline inschrijven: 1 maart 2024</h4>
-                  Inschrijving hierna niet meer mogelijk
-                </div>
-              </div>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="fa fa-thumbs-up"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Dankzij jullie feedback: moeilijkheidsgraad bijgesteld</h4>
-                  Meer vragen en opdrachten die goed te doen zijn, maar zeker nog voldoende uitdaging!
-                </div>
-              </div>
-              <div class="media">
-                <div class="d-flex pr-4">
-                  <a href="#">
-                    <span class="icon circle small default-bg"><i class="fa fa-comments-o"></i> </span>
-                  </a>
-                </div>
-                <div class="media-body">
-                  <h4 class="media-heading">Volg ons op socal media</h4>
-                  Like, share & tag je teamgenoten:
-                  <ul class="social-links circle">
-                    <li class="facebook"><a target="_blank" href="http://www.facebook.com/orskotse.kwis/"><i
-                          class="fa fa-facebook"></i></a></li>
-                    <li class="instagram"><a target="_blank" href="http://www.instagram.com/orskotsekwis/"><i
-                          class="fa fa-instagram"></i></a></li>
-                  </ul>
-
-                </div>
-              </div>
-            </div>
+    <div class="container">
+      <div class="clients-container">
+        <div class="clients">
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
           </div>
-          <hr>
-          <div class="row">
-            <div class="col-lg-6 order-lg-2">
-              <img class="pv-30" src="images/section-image-kwis-2-rounded.png" alt="">
-            </div>
-            <div class="col-lg-6 order-lg-1">
-              <h2 class="mt-4">Over de kwis</h2>
-              <p>Oirschotse weetjes en plaatjes. Over sport, muziek en nog veel meer. Diverse Oirschotse en niet
-                Oirschotse onderwerpen komen langs in deze originele en spannende kenniskwis. Deelnemers mogen in maart
-                alle middelen inzetten om de vragen te beantwoorden, terwijl de klok onverbiddelijk verder tikt. Wie
-                wordt het slimste team van Oirschot?</p>
-              <ul class="list-icons">
-                <li><i class="icon-check-1"></i> Kennis & Doe vragen</li>
-                <li><i class="icon-check-1"></i> Veel Oirschotse onderwerpen</li>
-                <li><i class="icon-check-1"></i> Teams zonder maximum aantal personen</li>
-                <li><i class="icon-check-1"></i> Teamcaptain is minimaal 18 jaar & woonachtig in Oirschot</li>
-                <li><i class="icon-check-1"></i> Kosten bedragen €20 per team</li>
-                <li><i class="icon-check-1"></i> Winnaars steunen zelf gekozen goed doel, maatschappelijk relevant voor
-                  Oirschotse gemeenschap</li>
-                <li><i class="icon-check-1"></i> Lees de rest in ons <a
-                    href="Reglement Orskôtse Kwis-v5.pdf">reglement</a></li>
-              </ul>
-            </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://sntzl.nl/de-zwaan/" target="_blank"><img
+                src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.dvk-sign.nl/" target="_blank"><img src="images/sponsors/dvk.jpg" alt=""></a>
           </div>
         </div>
-        <!-- main end -->
-
       </div>
     </div>
-  </section>
-  <!-- main-container end -->
 
-
-
-
-  <div class="container">
-    <div class="row justify-content-lg-center">
-      <div class="col-lg-8 text-center pv-10">
-        <h2 class="text-center">Hoofdsponsoren</h2>
-        <div class="separator"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="clients-container">
-      <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.japak.nl/" target="_blank"><img src="images/sponsors/japak.jpg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://sntzl.nl/de-zwaan/" target="_blank"><img src="images/sponsors/Logo-SNTZL-De zwaan-licht.jpg"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.dvk-sign.nl/" target="_blank"><img src="images/sponsors/dvk.jpg" alt=""></a>
+    <div class="container">
+      <div class="row justify-content-lg-center">
+        <div class="col-lg-8 text-center pv-10">
+          <h2 class="text-center">Sponsoren & Mede mogelijk gemaakt door</h2>
+          <div class="separator"></div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row justify-content-lg-center">
-      <div class="col-lg-8 text-center pv-10">
-        <h2 class="text-center">Sponsoren & Mede mogelijk gemaakt door</h2>
-        <div class="separator"></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="clients-container">
-      <div class="clients">
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.campingdebocht.nl/" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.verspaandonk-herenmode.nl/" target="_blank"><img
-              src="images/sponsors/logo-verspaandonk.svg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
-          <a href="https://www.desterkaasculinair.nl/" target="_blank"><img src="images/sponsors/Logo-deSterScherp.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.facebook.com/cafezaaltvrijthof" target="_blank"><img
-              src="images/sponsors/Logo-Vrijthof.jpg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.brasserietof.nl/" target="_blank"><img src="images/sponsors/Logo-BRASSERIE-TOF.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.gelagkamer.nl/" target="_blank"><img src="images/sponsors/Logo-GELAGKAMER.jpg"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="http://www.oudbrabant.nl/" target="_blank"><img src="images/sponsors/Logo-Oud-Brabant.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.debeurs-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-de_beurs.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://jasminegardenoirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Jasmine-Garden.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.facebook.com/profile.php?id=100043338206065" target="_blank"><img
-              src="images/sponsors/Voorzijde pand.png" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.facebook.com/jumbooirschot" target="_blank"><img
-              src="images/sponsors/Logo-jumbo-oirschot.jpg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://primera-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-primera.jpg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra-vierkant.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://netwerknotarissen.nl/kantoren/wedemeijer-marks-netwerk-notarissen" target="_blank"><img
-              src="images/sponsors/marks.png" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.deburgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://roche.nu/financieel-adviseur-oirschot/" target="_blank"><img
-              src="images/sponsors/Logo-roche.png" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.facebook.com/etibjoannes/" target="_blank"><img src="images/sponsors/Logo_Joannes.jpg"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.hoeve1827.nl/" target="_blank"><img src="images/sponsors/LogoHoeve1827.jpg" alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.vandeoirsprong.nl/" target="_blank"><img src="images/sponsors/VanDeOirsprong.jpg"
-              alt=""></a>
-        </div>
-        <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-          <a href="https://www.facebook.com/p/Thuishaven-Ons-May-100083113152985/" target="_blank"><img
-              src="images/sponsors/OnsMay.jpg" alt=""></a>
+    <div class="container">
+      <div class="clients-container">
+        <div class="clients">
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="http://www.quizis.nl" target="_blank"><img src="images/sponsors/quizis.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.campingdebocht.nl/" target="_blank"><img src="images/sponsors/camping_de_bocht.jpg"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.verspaandonk-herenmode.nl/" target="_blank"><img
+                src="images/sponsors/logo-verspaandonk.svg" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+            <a href="https://www.desterkaasculinair.nl/" target="_blank"><img
+                src="images/sponsors/Logo-deSterScherp.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.facebook.com/cafezaaltvrijthof" target="_blank"><img
+                src="images/sponsors/Logo-Vrijthof.jpg" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.brasserietof.nl/" target="_blank"><img src="images/sponsors/Logo-BRASSERIE-TOF.png"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.gelagkamer.nl/" target="_blank"><img src="images/sponsors/Logo-GELAGKAMER.jpg"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="http://www.oudbrabant.nl/" target="_blank"><img src="images/sponsors/Logo-Oud-Brabant.png"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.debeurs-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-de_beurs.png"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://jasminegardenoirschot.nl/" target="_blank"><img
+                src="images/sponsors/Logo-Jasmine-Garden.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.facebook.com/profile.php?id=100043338206065" target="_blank"><img
+                src="images/sponsors/Voorzijde pand.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.facebook.com/jumbooirschot" target="_blank"><img
+                src="images/sponsors/Logo-jumbo-oirschot.jpg" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://primera-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-primera.jpg"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.mitra-oirschot.nl/" target="_blank"><img src="images/sponsors/Logo-Mitra-vierkant.png"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://netwerknotarissen.nl/kantoren/wedemeijer-marks-netwerk-notarissen" target="_blank"><img
+                src="images/sponsors/marks.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.deburgemeester.nl/" target="_blank"><img src="images/sponsors/Burgemeester-2.png"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://roche.nu/financieel-adviseur-oirschot/" target="_blank"><img
+                src="images/sponsors/Logo-roche.png" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.facebook.com/etibjoannes/" target="_blank"><img src="images/sponsors/Logo_Joannes.jpg"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.hoeve1827.nl/" target="_blank"><img src="images/sponsors/LogoHoeve1827.jpg" alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.vandeoirsprong.nl/" target="_blank"><img src="images/sponsors/VanDeOirsprong.jpg"
+                alt=""></a>
+          </div>
+          <div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+            <a href="https://www.facebook.com/p/Thuishaven-Ons-May-100083113152985/" target="_blank"><img
+                src="images/sponsors/OnsMay.jpg" alt=""></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
-  <!--
+    <!--
 
             <div class="container">
                 <div class="row justify-content-lg-center">
@@ -771,38 +787,38 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
         -->
 
 
-  <!-- section end -->
+    <!-- section end -->
 
-  <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
-  <!-- ================ -->
-  <footer id="footer" class="clearfix ">
-
-    <!-- .footer start -->
+    <!-- footer start (Add "dark" class to #footer in order to enable dark footer) -->
     <!-- ================ -->
-    <div class="footer">
-      <div class="container">
-        <div class="footer-inner">
-          <div class="row justify-content-lg-center">
-            <div class="col-lg-6">
-              <div class="footer-content text-center padding-ver-clear">
-                <ul class="list-inline mb-20">
-                  <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1"></i>Oirschot</li>
-                  <li class="list-inline-item"><a href="mailto:info@orskotsekwis.nl" class="link-dark"><i
-                        class="text-default fa fa-envelope-o pl-10 pr-1"></i>info@orskotsekwis.nl</a></li>
-                </ul>
-                <!-- <a href="#header" class="btn btn-default-transparent btn-lg btn-hvr hvr-sweep-to-top smooth-scroll">Schrijf nu in</a> -->
-                <div class="separator"></div>
-                <p class="text-center margin-clear">© <?php echo date('Y'); ?> Orskôtse Kwis</p>
+    <footer id="footer" class="clearfix ">
+
+      <!-- .footer start -->
+      <!-- ================ -->
+      <div class="footer">
+        <div class="container">
+          <div class="footer-inner">
+            <div class="row justify-content-lg-center">
+              <div class="col-lg-6">
+                <div class="footer-content text-center padding-ver-clear">
+                  <ul class="list-inline mb-20">
+                    <li class="list-inline-item"><i class="text-default fa fa-map-marker pr-1"></i>Oirschot</li>
+                    <li class="list-inline-item"><a href="mailto:info@orskotsekwis.nl" class="link-dark"><i
+                          class="text-default fa fa-envelope-o pl-10 pr-1"></i>info@orskotsekwis.nl</a></li>
+                  </ul>
+                  <!-- <a href="#header" class="btn btn-default-transparent btn-lg btn-hvr hvr-sweep-to-top smooth-scroll">Schrijf nu in</a> -->
+                  <div class="separator"></div>
+                  <p class="text-center margin-clear">© <?php echo date('Y'); ?> Orskôtse Kwis</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- .footer end -->
+      <!-- .footer end -->
 
-  </footer>
-  <!-- footer end -->
+    </footer>
+    <!-- footer end -->
   </div>
   <!-- page-wrapper end -->
 
