@@ -150,6 +150,10 @@ $nextDeadline = START_OF_SUBSCRIPTION > time() ? START_OF_SUBSCRIPTION : END_OF_
             <p class="text-center lead">
               Speciale dank aan de sponsoren (zie onder) die de afgelopen edities hebben mogelijk gemaakt.
             </p>
+            <p class="text-center lead">
+              De komende periode zullen we gebruiken om het de resterende gelden te verdelen over de goede doelen die
+              door de deelnemende teams zijn gesteund.
+            </p>
           </div>
         </div>
         <!-- countdown start -->
